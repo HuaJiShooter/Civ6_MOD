@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData2 -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/27/2023 11:36:32 AM -->
+<GameData>
+
+	<Types>
+		<Row Type="LEADER_NIJIKA" Kind="KIND_LEADER"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_NIJIKA"
+			 Name="LOC_LEADER_NIJIKA_NAME"
+			 Sex="Female"
+			 InheritFrom="LEADER_DEFAULT"
+			 SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_NIJIKA"
+			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_NIJIKA_QUOTE"
+			 QuoteAudio="Play_LEADER_NIJIKA_QUOTES"/>
+	</LeaderQuotes>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_NIJIKA" ForegroundImage="IMG_SELECTION_FOREGROUND_NIJIKA" BackgroundImage="BACKGROUND_ONE"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_NIJIKA" BackgroundImage="BACKGROUND_ONE"/>
+	</DiplomacyInfo>
+
+</GameData>

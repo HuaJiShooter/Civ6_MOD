@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_Leader -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:04:09 AM -->
+<GameData>
+
+	<Types>
+		<Row Type="LEADER_BOCCHI" Kind="KIND_LEADER"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_BOCCHI" 
+			 Name="LOC_LEADER_BOCCHI_NAME" 
+			 Sex="Female" 
+			 InheritFrom="LEADER_DEFAULT" 
+			 SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_BOCCHI"
+			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_BOCCHI_QUOTE" 
+			 QuoteAudio="Play_LEADER_BOCCHI_QUOTES"/>
+	</LeaderQuotes>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_BOCCHI" ForegroundImage="IMG_SELECTION_FOREGROUND_BOCCHI" BackgroundImage="BACKGROUND_ONE"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_BOCCHI" BackgroundImage="BACKGROUND_ONE"/>
+	</DiplomacyInfo>
+	
+</GameData>

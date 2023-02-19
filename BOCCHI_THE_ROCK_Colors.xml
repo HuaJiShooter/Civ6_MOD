@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_Colors -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/27/2023 9:29:06 AM -->
+<GameData>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_BOCCHI_PRIMARY</Type>
+			<Color>255,34,145,255</Color>
+
+			<Type>COLOR_PLAYER_RYO_PRIMARY</Type>
+			<Color>2,209,224,255</Color>
+
+			<Type>COLOR_PLAYER_NIJIKA_PRIMARY</Type>
+			<Color>255,180,0,255</Color>
+
+			<Type>COLOR_PLAYER_KITA_PRIMARY</Type>
+			<Color>255,70,55,255</Color>
+			
+			<Type>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</Type>
+			<Color>255,0,0,255</Color>
+		</Row>
+	</Colors>
+	
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_BOCCHI</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_BOCCHI_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+
+			<Type>LEADER_KITA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_KITA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+
+			<Type>LEADER_RYO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_RYO_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+
+			<Type>LEADER_NIJIKA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_NIJIKA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+</GameData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_Unit -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:04:39 AM -->
+<GameData>
+	
+	<Types>
+		<Row Type="UNIT_JIMIHEN" Kind="KIND_UNIT"/>
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_JIMIHEN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JIMIHEN" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_JIMIHEN" ReplacesUnitType="UNIT_SCOUT"/>
+	</UnitReplaces>
+
+	<TypeTags>
+		<Row Type="UNIT_JIMIHEN" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JIMIHEN" Tag="CLASS_REVEAL_STEALTH"/>
+	</TypeTags>
+
+	<Units>
+		<Row UnitType="UNIT_JIMIHEN" 
+			 Cost="35" 
+			 BaseMoves="4" 
+			 BaseSightRange="3" 
+			 ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" 
+			 Combat="10"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_RECON" 
+			 AdvisorType="ADVISOR_GENERIC"
+			 Name="LOC_UNIT_JIMIHEN_NAME"
+			 Description="LOC_UNIT_JIMIHEN_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"
+			 PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
+			 TraitType="TRAIT_UNIT_JIMIHEN"/>
+	</Units>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_JIMIHEN" UpgradeUnit="UNIT_RANGER"/>
+	</UnitUpgrades>
+	
+</GameData>

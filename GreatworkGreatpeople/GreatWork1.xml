@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/18/2023 6:42:12 PM -->
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_1" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_RYO_1" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_2" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_KITA_1" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_3" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_BOCCHI_4" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_5" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_BOCCHI_6" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_RYO_2" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_7" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_BOCCHI_8" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_NIJIKA_1" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_9" Kind="KIND_GREATWORK"/>
+		<Row Type="GREATWORK_BOCCHI_10" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_KITA_2" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_11" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_3" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_12" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_NIJIKA_2" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_13" Kind="KIND_GREATWORK"/>
+		
+		<Row Type="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_4" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_BOCCHI_14" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_ANCIENT"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RYO_1" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_RYO_1_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_CLASSICAL"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KITA_1" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_KITA_1_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_MEDIEVAL"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_MEDIEVAL"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RYO_2" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_RYO_2_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_RENAISSANCE"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIJIKA_1" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_NIJIKA_1_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_RENAISSANCE"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KITA_2" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_KITA_2_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_INDUSTRIAL"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_3" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_3_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_INDUSTRIAL"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIJIKA_2" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_NIJIKA_2_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_MODERN"
+			 ActionCharges="0"
+			 Gender="F"/>
+			 
+			 
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_4" 
+			 Name="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_4_NAME" 
+			 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" 
+			 EraType="ERA_MODERN"
+			 ActionCharges="0"
+			 Gender="F"/>
+	</GreatPersonIndividuals>
+	
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_BOCCHI_1"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1" 
+			 Name="LOC_GREATWORK_BOCCHI_1_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_1_QUOTE"
+			 Audio="BOCCHI_GW_01"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_2"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RYO_1" 
+			 Name="LOC_GREATWORK_BOCCHI_2_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_2_QUOTE"
+			 Audio="BOCCHI_GW_02"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_3"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KITA_1" 
+			 Name="LOC_GREATWORK_BOCCHI_3_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_3_QUOTE"
+			 Audio="BOCCHI_GW_03"
+			 Tourism="4"/>	 
+		<Row GreatWorkType="GREATWORK_BOCCHI_4"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KITA_1" 
+			 Name="LOC_GREATWORK_BOCCHI_4_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_4_QUOTE"
+			 Audio="BOCCHI_GW_04"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_5"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2" 
+			 Name="LOC_GREATWORK_BOCCHI_5_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_5_QUOTE"
+			 Audio="BOCCHI_GW_05"
+			 Tourism="6"/>
+		<Row GreatWorkType="GREATWORK_BOCCHI_6"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2" 
+			 Name="LOC_GREATWORK_BOCCHI_6_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_6_QUOTE"
+			 Audio="BOCCHI_GW_06"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_7"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RYO_2" 
+			 Name="LOC_GREATWORK_BOCCHI_7_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_7_QUOTE"
+			 Audio="BOCCHI_GW_07"
+			 Tourism="6"/>
+		<Row GreatWorkType="GREATWORK_BOCCHI_8"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RYO_2" 
+			 Name="LOC_GREATWORK_BOCCHI_8_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_8_QUOTE"
+			 Audio="BOCCHI_GW_08"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_9"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIJIKA_1" 
+			 Name="LOC_GREATWORK_BOCCHI_9_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_9_QUOTE"
+			 Audio="BOCCHI_GW_09"
+			 Tourism="4"/>
+		<Row GreatWorkType="GREATWORK_BOCCHI_10"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIJIKA_1" 
+			 Name="LOC_GREATWORK_BOCCHI_10_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_10_QUOTE"
+			 Audio="BOCCHI_GW_10"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_11"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KITA_2" 
+			 Name="LOC_GREATWORK_BOCCHI_11_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_11_QUOTE"
+			 Audio="BOCCHI_GW_11"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_12"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_3" 
+			 Name="LOC_GREATWORK_BOCCHI_12_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_12_QUOTE"
+			 Audio="BOCCHI_GW_12"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_13"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIJIKA_2" 
+			 Name="LOC_GREATWORK_BOCCHI_13_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_13_QUOTE"
+			 Audio="BOCCHI_GW_13"
+			 Tourism="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_14"
+			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
+			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_4" 
+			 Name="LOC_GREATWORK_BOCCHI_14_NAME"
+			 Quote="LOC_GREATWORK_BOCCHI_14_QUOTE"
+			 Audio="BOCCHI_GW_14"
+			 Tourism="4"/>
+	</GreatWorks>
+	
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_BOCCHI_1" 
+			 YieldType="YIELD_CULTURE"
+			 YieldChange="2"/>	 
+		<Row GreatWorkType="GREATWORK_BOCCHI_1" 
+			 YieldType="YIELD_FAITH"
+			 YieldChange="2"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_2" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="2"/>
+			
+		<Row GreatWorkType="GREATWORK_BOCCHI_3" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="2"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_4" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="2"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_5" 
+			 YieldType="YIELD_CULTURE"
+			 YieldChange="2"/> 
+		<Row GreatWorkType="GREATWORK_BOCCHI_5" 
+			 YieldType="YIELD_FAITH"
+			 YieldChange="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_6" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_7" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="4"/>
+		<Row GreatWorkType="GREATWORK_BOCCHI_7" 
+			 YieldType="YIELD_CULTURE"
+			 YieldChange="2"/>
+		<Row GreatWorkType="GREATWORK_BOCCHI_7" 
+			 YieldType="YIELD_FAITH"
+			 YieldChange="2"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_8" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_9" 
+			 YieldType="YIELD_GOLD"
+			 YieldChange="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_10"
+			 YieldType="YIELD_GOLD"
+			 YieldChange="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_11"
+			 YieldType="YIELD_FAITH"
+			 YieldChange="6"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_12"
+			 YieldType="YIELD_CULTURE"
+			 YieldChange="4"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_13"
+			 YieldType="YIELD_GOLD"
+			 YieldChange="6"/>
+			 
+		<Row GreatWorkType="GREATWORK_BOCCHI_14"
+			 YieldType="YIELD_CULTURE"
+			 YieldChange="4"/>
+			 
+		
+	</GreatWork_YieldChanges>
+</GameData>

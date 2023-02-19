@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_Buildings -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:06:04 AM -->
+<GameData>
+
+	<Types>
+		<Row Type="BUILDING_MUSEUM_MUSIC" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STARRY" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_MUSEUM_MUSIC"
+			 Name="LOC_BUILDING_MUSEUM_MUSIC_NAME"
+			 Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION"
+			 PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_THEATER"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="290"
+			 AdvisorType="ADVISOR_CULTURE"
+			 Maintenance="2"
+			 CitizenSlots="1"
+			 TraitType="TRAIT_BUILDING_MUSEUM_MUSIC"/>
+
+		<Row BuildingType="BUILDING_STARRY"
+			 Name="LOC_BUILDING_STARRY_NAME"
+			 Description="LOC_BUILDING_STARRY_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_GOVERNMENT"
+			 Cost="217" AdvisorType="ADVISOR_CULTURE" 
+			 Maintenance="2"
+			 TraitType="TRAIT_BUILDING_STARRY"
+			 UnlocksGovernmentPolicy="True" 
+			 GovernmentTierRequirement="Tier2"/>
+	</Buildings>
+	
+
+	<BuildingPrereqs>
+		
+		<Row Building="BUILDING_MUSEUM_MUSIC" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_MUSIC"/>
+
+		<Row Building="BUILDING_STARRY" PrereqBuilding="BUILDING_GOV_TALL"/>
+		<Row Building="BUILDING_STARRY" PrereqBuilding="BUILDING_GOV_WIDE"/>
+		<Row Building="BUILDING_STARRY" PrereqBuilding="BUILDING_GOV_CONQUEST"/>
+		<Row Building="BUILDING_GOV_MILITARY" PrereqBuilding="BUILDING_STARRY"/>
+		<Row Building="BUILDING_GOV_CULTURE" PrereqBuilding="BUILDING_STARRY"/>
+		<Row Building="BUILDING_GOV_SCIENCE" PrereqBuilding="BUILDING_STARRY"/>
+
+	</BuildingPrereqs>
+
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_MUSEUM_MUSIC" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ART"/>
+		<Row Building="BUILDING_MUSEUM_MUSIC" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_MUSEUM_ART" MutuallyExclusiveBuilding="BUILDING_MUSEUM_MUSIC"/>
+		<Row Building="BUILDING_MUSEUM_ARTIFACT" MutuallyExclusiveBuilding="BUILDING_MUSEUM_MUSIC"/>
+
+		<Row Building="BUILDING_GOV_CITYSTATES" MutuallyExclusiveBuilding="BUILDING_STARRY"/>
+		<Row Building="BUILDING_GOV_SPIES" MutuallyExclusiveBuilding="BUILDING_STARRY"/>
+		<Row Building="BUILDING_GOV_FAITH" MutuallyExclusiveBuilding="BUILDING_STARRY"/>
+		<Row Building="BUILDING_STARRY" MutuallyExclusiveBuilding="BUILDING_GOV_CITYSTATES"/>
+		<Row Building="BUILDING_STARRY" MutuallyExclusiveBuilding="BUILDING_GOV_SPIES"/>
+		<Row Building="BUILDING_STARRY" MutuallyExclusiveBuilding="BUILDING_GOV_FAITH"/>
+	</MutuallyExclusiveBuildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MUSEUM_MUSIC" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_MUSEUM_MUSIC"
+			 GreatWorkSlotType="GREATWORKSLOT_MUSIC"
+			 NumSlots="3"/>
+
+		<Row BuildingType="BUILDING_STARRY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
+	</Building_GreatWorks>
+	
+	
+	<!--TODO STARRY的修改器可能得加进去(疑似市政点)-->
+
+</GameData>

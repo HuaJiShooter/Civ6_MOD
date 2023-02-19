@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="01234567-abcd-2023-0121-2333e89f6666" version="1">
+	<Properties>
+		<Name>ChangeYieldFromTourism</Name>
+		<Teaser>ChangeYieldFromTourism</Teaser>
+		<Description>ABABAB</Description>
+		<Authors>Hua_Ji_Shooter</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2, 2.0</CompatibleVersions>
+	</Properties>
+	
+	
+	<InGameActions>
+		<AddUserInterfaces id="ChangeYieldFromTourism_UI">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<File>ChangeYieldFromTourism_UI.xml</File>
+		</AddUserInterfaces>
+		<AddGameplayScripts id = "ChangeYieldFromTourism">
+			<File>ChangeYieldFromTourism.lua</File>
+		</AddGameplayScripts>
+	</InGameActions>
+	
+	<Files>
+		<File>ChangeYieldFromTourism.lua</File>
+		<File>ChangeYieldFromTourism_UI.lua</File>
+		<File>ChangeYieldFromTourism_UI.xml</File>
+	</Files>
+</Mod>
