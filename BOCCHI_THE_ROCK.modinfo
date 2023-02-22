@@ -48,11 +48,13 @@
 			<Properties>
 				<Context>InGame</Context>
 			</Properties>
-			<File>ChangeYieldFromTourism_UI.xml</File>
+			<File>Lua/ChangeYieldFromTourism_UI.xml</File>
+			<File>Lua/CultureCOnquestedAddGold_UI.xml</File>
 		</AddUserInterfaces>
 		
-		<AddGameplayScripts id = "ChangeYieldFromTourism">
-			<File>ChangeYieldFromTourism.lua</File>
+		<AddGameplayScripts id = "UpdateLua">
+			<File>Lua/ChangeYieldFromTourism.lua</File>
+			<File>Lua/CultureConquestedAddGold.lua</File>
 		</AddGameplayScripts>
 		
     <UpdateAudio id = "SB_BOCCHI">
@@ -109,6 +111,9 @@
     <File>Lua/ChangeYieldFromTourism.lua</File>
 		<File>Lua/ChangeYieldFromTourism_UI.lua</File>
 		<File>Lua/ChangeYieldFromTourism_UI.xml</File>
+		<File>Lua/CultureConquestedAddGold.lua</File>
+		<File>Lua/CultureConquestedAddGold_UI.lua</File>
+		<File>Lua/CultureConquestedAddGold_UI.lua</File>
     
     <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
     <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
