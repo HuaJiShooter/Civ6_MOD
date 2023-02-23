@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="52633866" Language="SFX">
+			<ShortName>BOCCHI_BGM06.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM06_5E5FEB08.wem</Path>
+		</File>
+		<File Id="107248595" Language="SFX">
+			<ShortName>BOCCHI_BGM07.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM07_5E5FEB08.wem</Path>
+		</File>
+		<File Id="262551009" Language="SFX">
+			<ShortName>BOCCHI_BGM04.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM04_5E5FEB08.wem</Path>
+		</File>
+		<File Id="352436486" Language="SFX">
+			<ShortName>BOCCHI_BGM08.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM08_5E5FEB08.wem</Path>
+		</File>
+		<File Id="354452986" Language="SFX">
+			<ShortName>BOCCHI_BGM11.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM11_5E5FEB08.wem</Path>
+		</File>
+		<File Id="535202970" Language="SFX">
+			<ShortName>BOCCHI_BGM01.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM01_5E5FEB08.wem</Path>
+		</File>
+		<File Id="568905256" Language="SFX">
+			<ShortName>BOCCHI_BGM12.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM12_5E5FEB08.wem</Path>
+		</File>
+		<File Id="705137495" Language="SFX">
+			<ShortName>0101.wav</ShortName>
+			<Path>SFX\0101_5E5FEB08.wem</Path>
+		</File>
+		<File Id="758159953" Language="SFX">
+			<ShortName>BOCCHI_BGM05.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM05_5E5FEB08.wem</Path>
+		</File>
+		<File Id="765800447" Language="SFX">
+			<ShortName>BOCCHI_BGM02.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM02_5E5FEB08.wem</Path>
+		</File>
+		<File Id="804905201" Language="SFX">
+			<ShortName>BOCCHI_BGM03.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM03_5E5FEB08.wem</Path>
+		</File>
+		<File Id="884554581" Language="SFX">
+			<ShortName>BOCCHI_BGM10.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM10_5E5FEB08.wem</Path>
+		</File>
+		<File Id="1059498753" Language="SFX">
+			<ShortName>BOCCHI_BGM09.wav</ShortName>
+			<Path>SFX\BOCCHI_BGM09_5E5FEB08.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3282730331" Language="SFX">
+			<ShortName>SB_BOCCHI</ShortName>
+			<Path>SB_BOCCHI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1033155570" Name="Pause_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="184947753" Name="Play_BOCCHI_GW_01"/>
+				<Event Id="184947754" Name="Play_BOCCHI_GW_02"/>
+				<Event Id="184947755" Name="Play_BOCCHI_GW_03"/>
+				<Event Id="184947756" Name="Play_BOCCHI_GW_04"/>
+				<Event Id="184947757" Name="Play_BOCCHI_GW_05"/>
+				<Event Id="184947758" Name="Play_BOCCHI_GW_06"/>
+				<Event Id="184947759" Name="Play_BOCCHI_GW_07"/>
+				<Event Id="184947744" Name="Play_BOCCHI_GW_08"/>
+				<Event Id="184947745" Name="Play_BOCCHI_GW_09"/>
+				<Event Id="201725339" Name="Play_BOCCHI_GW_10"/>
+				<Event Id="201725338" Name="Play_BOCCHI_GW_11"/>
+				<Event Id="201725337" Name="Play_BOCCHI_GW_12"/>
+				<Event Id="201725336" Name="Play_BOCCHI_GW_13"/>
+				<Event Id="201725343" Name="Play_BOCCHI_GW_14"/>
+				<Event Id="647791590" Name="Play_Leader_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="1469988668" Name="Play_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="1150270207" Name="Resume_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="761636084" Name="Start_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="2188684384" Name="Stop_Leader_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="3450026250" Name="Stop_Music_BOCCHI_THE_ROCK"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="52633866"/>
+				<File Id="107248595"/>
+				<File Id="262551009"/>
+				<File Id="352436486"/>
+				<File Id="354452986"/>
+				<File Id="535202970"/>
+				<File Id="568905256"/>
+				<File Id="705137495"/>
+				<File Id="758159953"/>
+				<File Id="765800447"/>
+				<File Id="804905201"/>
+				<File Id="884554581"/>
+				<File Id="1059498753"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="10901000" Language="SFX">
+					<ShortName>1_10 なにが悪い_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_10 なにが悪い_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="117329484" Language="SFX">
+					<ShortName>GW12.wav</ShortName>
+					<Path>SFX\GW12_B945FE8E.wem</Path>
+				</File>
+				<File Id="191274196" Language="SFX">
+					<ShortName>GW09.wav</ShortName>
+					<Path>SFX\GW09_B945FE8E.wem</Path>
+				</File>
+				<File Id="252906603" Language="SFX">
+					<ShortName>GW06.wav</ShortName>
+					<Path>SFX\GW06_B945FE8E.wem</Path>
+				</File>
+				<File Id="293487622" Language="SFX">
+					<ShortName>GW10.wav</ShortName>
+					<Path>SFX\GW10_B945FE8E.wem</Path>
+				</File>
+				<File Id="376332913" Language="SFX">
+					<ShortName>GW13.wav</ShortName>
+					<Path>SFX\GW13_B945FE8E.wem</Path>
+				</File>
+				<File Id="433435124" Language="SFX">
+					<ShortName>1_02 ひとりぼっち東京_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_02 ひとりぼっち東京_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="459056391" Language="SFX">
+					<ShortName>1_09 小さな海_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_09 小さな海_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="492769563" Language="SFX">
+					<ShortName>GW14.wav</ShortName>
+					<Path>SFX\GW14_B945FE8E.wem</Path>
+				</File>
+				<File Id="500660764" Language="SFX">
+					<ShortName>1_03 Distortion!!_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_03 Distortion!!_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="535398804" Language="SFX">
+					<ShortName>1_13 フラッシュバッカー_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_13 フラッシュバッカー_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="553107440" Language="SFX">
+					<ShortName>1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="589139801" Language="SFX">
+					<ShortName>1_12 星座になれたら_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_12 星座になれたら_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="633114155" Language="SFX">
+					<ShortName>1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="686496508" Language="SFX">
+					<ShortName>GW11.wav</ShortName>
+					<Path>SFX\GW11_B945FE8E.wem</Path>
+				</File>
+				<File Id="745430666" Language="SFX">
+					<ShortName>GW05.wav</ShortName>
+					<Path>SFX\GW05_B945FE8E.wem</Path>
+				</File>
+				<File Id="751368837" Language="SFX">
+					<ShortName>1_05 ギターと孤独と蒼い惑星_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_05 ギターと孤独と蒼い惑星_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="789051943" Language="SFX">
+					<ShortName>1_11 忘れてやらない_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_11 忘れてやらない_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="824166456" Language="SFX">
+					<ShortName>1_04 ひみつ基地_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_04 ひみつ基地_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="844827578" Language="SFX">
+					<ShortName>1_07 あのバンド_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_07 あのバンド_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="856111329" Language="SFX">
+					<ShortName>1_08 カラカラ_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_08 カラカラ_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="908084806" Language="SFX">
+					<ShortName>GW07.wav</ShortName>
+					<Path>SFX\GW07_B945FE8E.wem</Path>
+				</File>
+				<File Id="924154012" Language="SFX">
+					<ShortName>GW01.wav</ShortName>
+					<Path>SFX\GW01_B945FE8E.wem</Path>
+				</File>
+				<File Id="951977879" Language="SFX">
+					<ShortName>GW04.wav</ShortName>
+					<Path>SFX\GW04_B945FE8E.wem</Path>
+				</File>
+				<File Id="980217547" Language="SFX">
+					<ShortName>GW03.wav</ShortName>
+					<Path>SFX\GW03_B945FE8E.wem</Path>
+				</File>
+				<File Id="1047254224" Language="SFX">
+					<ShortName>1_01 青春コンプレックス_1_HP-UVR_(Instrumental).wav</ShortName>
+					<Path>SFX\1_01 青春コンプレックス_1_HP-UVR_(Instrumental)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="1052266531" Language="SFX">
+					<ShortName>GW02.wav</ShortName>
+					<Path>SFX\GW02_B945FE8E.wem</Path>
+				</File>
+				<File Id="1061552759" Language="SFX">
+					<ShortName>GW08.wav</ShortName>
+					<Path>SFX\GW08_B945FE8E.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

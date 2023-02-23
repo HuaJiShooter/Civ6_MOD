@@ -80,5 +80,26 @@
 	
 	
 	<!--TODO STARRY的修改器可能得加进去(疑似市政点)-->
+	
+	<BuildingModifiers>
+        <Row>
+            <BuildingType>BUILDING_STARRY</BuildingType>
+            <ModifierId>MODIFIER_STARRY_CHANGE_GOVERNOR_POINT</ModifierId>
+        </Row>
+    </BuildingModifiers>
+    <Modifiers>
+        <Row>
+            <ModifierId>MODIFIER_STARRY_CHANGE_GOVERNOR_POINT</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>MODIFIER_STARRY_CHANGE_GOVERNOR_POINT</ModifierId>
+            <Name>Delta</Name>
+            <Value>1</Value>
+        </Row>
+    </ModifierArguments>
+	
 
 </GameData>

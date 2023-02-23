@@ -44,6 +44,7 @@
       <File>RYO_Leader.xml</File>
       <File>GreatworkGreatpeople/GreatWork1.xml</File>
       <File>Modifier/STARRY_AUTO_THEME.xml</File>
+      <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
     </UpdateDatabase>
     <AddUserInterfaces id="UpdateUI">
 			<Properties>
@@ -56,6 +57,7 @@
 		<AddGameplayScripts id = "UpdateLua">
 			<File>Lua/ChangeYieldFromTourism.lua</File>
 			<File>Lua/CultureConquestedAddGold.lua</File>
+			<File>Lua/Get_Bocchi_Chan.lua</File>
 		</AddGameplayScripts>
 		
     <UpdateAudio id = "SB_BOCCHI">
@@ -107,6 +109,7 @@
     <File>XLPs/LeaderFallbacks.xlp</File>
     
     <File>Modifier/STARRY_AUTO_THEME.xml</File>
+    <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
     
     <File>GreatworkGreatpeople/GreatWork1.xml</File>
     <File>GreatworkGreatpeople/GreatWork_text.xml</File>
@@ -117,6 +120,7 @@
 		<File>Lua/CultureConquestedAddGold.lua</File>
 		<File>Lua/CultureConquestedAddGold_UI.lua</File>
 		<File>Lua/CultureConquestedAddGold_UI.lua</File>
+		<File>Lua/Get_Bocchi_Chan.lua</File>
     
     <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
     <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
