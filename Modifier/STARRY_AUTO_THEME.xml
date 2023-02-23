@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <BuildingModifiers>
+        <Row>
+            <BuildingType>BUILDING_STARRY</BuildingType>
+            <ModifierId>TRAIT_AUTO_THEME_STARRY</ModifierId>
+        </Row>
+        <Row BuildingType="BUILDING_STARRY" ModifierId="THEMED_YIELD_MODIFIER"/>
+		<Row BuildingType="BUILDING_STARRY" ModifierId="THEMED_TOURISM_MODIFIER"/>
+    </BuildingModifiers>
+    <Modifiers>
+        <Row>
+            <ModifierId>TRAIT_AUTO_THEME_STARRY</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEME_BUILDINGS_WITH_X_SLOTS</ModifierType>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>TRAIT_AUTO_THEME_STARRY</ModifierId>
+            <Name>Amount</Name>
+            <Value>4</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_AUTO_THEME_STARRY</ModifierId>
+            <Name>IsWonder</Name>
+            <Value>false</Value>
+        </Row>
+    </ModifierArguments>
+</GameInfo>

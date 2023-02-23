@@ -43,6 +43,7 @@
       <File>NIJIKA_Leader.xml</File>
       <File>RYO_Leader.xml</File>
       <File>GreatworkGreatpeople/GreatWork1.xml</File>
+      <File>Modifier/STARRY_AUTO_THEME.xml</File>
     </UpdateDatabase>
     <AddUserInterfaces id="UpdateUI">
 			<Properties>
@@ -104,6 +105,8 @@
     <File>RYO_Leader.xml</File>
     <File>XLPs/BocchiTheRockDDS.xlp</File>
     <File>XLPs/LeaderFallbacks.xlp</File>
+    
+    <File>Modifier/STARRY_AUTO_THEME.xml</File>
     
     <File>GreatworkGreatpeople/GreatWork1.xml</File>
     <File>GreatworkGreatpeople/GreatWork_text.xml</File>
