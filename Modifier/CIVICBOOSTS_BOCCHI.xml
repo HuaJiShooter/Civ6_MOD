@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ANCIENT</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_CLASSICAL</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MEDIEVAL</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_RENAISSANCE</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INDUSTRIAL</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MODERN</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ATOMIC</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INFORMATION</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_FUTURE</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+            <RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ANCIENT</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ANCIENT</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_CLASSICAL</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ANCIENT</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_ANCIENT</Value>
+        </Row>
+        
+        
+         <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_CLASSICAL</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_CLASSICAL</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_MEDIEVAL</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_CLASSICAL</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_CLASSICAL</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MEDIEVAL</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MEDIEVAL</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_RENAISSANCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MEDIEVAL</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_MEDIEVAL</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_RENAISSANCE</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_RENAISSANCE</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_INDUSTRIAL</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_RENAISSANCE</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_RENAISSANCE</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INDUSTRIAL</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INDUSTRIAL</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_MODERN</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INDUSTRIAL</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_INDUSTRIAL</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MODERN</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MODERN</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_ATOMIC</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_MODERN</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_MODERN</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ATOMIC</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ATOMIC</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_INFORMATION</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_ATOMIC</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_ATOMIC</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INFORMATION</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INFORMATION</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_FUTURE</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_INFORMATION</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_INFORMATION</Value>
+        </Row>
+        
+        
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_FUTURE</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_FUTURE</ModifierId>
+            <Name>EndEraType</Name>
+            <Value>ERA_FUTURE</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_CIVICBOOST_FUTURE</ModifierId>
+            <Name>StartEraType</Name>
+            <Value>ERA_ANCIENT</Value>
+        </Row>
+    </ModifierArguments>
+</GameInfo>

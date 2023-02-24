@@ -45,19 +45,21 @@
       <File>GreatworkGreatpeople/GreatWork1.xml</File>
       <File>Modifier/STARRY_AUTO_THEME.xml</File>
       <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
+      <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
     </UpdateDatabase>
     <AddUserInterfaces id="UpdateUI">
 			<Properties>
 				<Context>InGame</Context>
 			</Properties>
 			<File>Lua/ChangeYieldFromTourism_UI.xml</File>
-			<File>Lua/CultureCOnquestedAddGold_UI.xml</File>
+			<File>Lua/CultureConquestedAddGold_UI.xml</File>
 		</AddUserInterfaces>
 		
 		<AddGameplayScripts id = "UpdateLua">
 			<File>Lua/ChangeYieldFromTourism.lua</File>
 			<File>Lua/CultureConquestedAddGold.lua</File>
 			<File>Lua/Get_Bocchi_Chan.lua</File>
+			<File>Lua/Ability_GuitarHero.lua</File>
 		</AddGameplayScripts>
 		
     <UpdateAudio id = "SB_BOCCHI">
@@ -110,6 +112,7 @@
     
     <File>Modifier/STARRY_AUTO_THEME.xml</File>
     <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
+    <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
     
     <File>GreatworkGreatpeople/GreatWork1.xml</File>
     <File>GreatworkGreatpeople/GreatWork_text.xml</File>
@@ -119,37 +122,25 @@
 		<File>Lua/ChangeYieldFromTourism_UI.xml</File>
 		<File>Lua/CultureConquestedAddGold.lua</File>
 		<File>Lua/CultureConquestedAddGold_UI.lua</File>
-		<File>Lua/CultureConquestedAddGold_UI.lua</File>
+		<File>Lua/CultureConquestedAddGold_UI.xml</File>
 		<File>Lua/Get_Bocchi_Chan.lua</File>
+		<File>Lua/Ability_GuitarHero.lua</File>
     
     <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
     <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
     <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
     <File>Platforms/Windows/Audio/52633866.wem</File>
-    <File>Platforms/Windows/Audio/106763931.wem</File>
     <File>Platforms/Windows/Audio/107248595.wem</File>
-    <File>Platforms/Windows/Audio/116335151.wem</File>
-    <File>Platforms/Windows/Audio/198188690.wem</File>
     <File>Platforms/Windows/Audio/262551009.wem</File>
-    <File>Platforms/Windows/Audio/300218652.wem</File>
     <File>Platforms/Windows/Audio/352436486.wem</File>
     <File>Platforms/Windows/Audio/354452986.wem</File>
-    <File>Platforms/Windows/Audio/418876703.wem</File>
-    <File>Platforms/Windows/Audio/512016150.wem</File>
     <File>Platforms/Windows/Audio/535202970.wem</File>
     <File>Platforms/Windows/Audio/568905256.wem</File>
-    <File>Platforms/Windows/Audio/663903002.wem</File>
     <File>Platforms/Windows/Audio/705137495.wem</File>
-    <File>Platforms/Windows/Audio/727728083.wem</File>
     <File>Platforms/Windows/Audio/758159953.wem</File>
     <File>Platforms/Windows/Audio/765800447.wem</File>
     <File>Platforms/Windows/Audio/804905201.wem</File>
-    <File>Platforms/Windows/Audio/843017450.wem</File>
-    <File>Platforms/Windows/Audio/863663339.wem</File>
     <File>Platforms/Windows/Audio/884554581.wem</File>
-    <File>Platforms/Windows/Audio/896845699.wem</File>
-    <File>Platforms/Windows/Audio/919870339.wem</File>
-    <File>Platforms/Windows/Audio/955051034.wem</File>
     <File>Platforms/Windows/Audio/1059498753.wem</File>
   </Files>
 </Mod>

@@ -176,7 +176,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_8_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_8_QUOTE"
 			 Audio="BOCCHI_GW_08"
-			 Tourism="4"/>
+			 Tourism="6"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_9"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -184,14 +184,14 @@
 			 Name="LOC_GREATWORK_BOCCHI_9_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_9_QUOTE"
 			 Audio="BOCCHI_GW_09"
-			 Tourism="4"/>
+			 Tourism="6"/>
 		<Row GreatWorkType="GREATWORK_BOCCHI_10"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
 			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIJIKA_1" 
 			 Name="LOC_GREATWORK_BOCCHI_10_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_10_QUOTE"
 			 Audio="BOCCHI_GW_10"
-			 Tourism="4"/>
+			 Tourism="6"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_11"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -199,7 +199,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_11_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_11_QUOTE"
 			 Audio="BOCCHI_GW_11"
-			 Tourism="4"/>
+			 Tourism="6"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_12"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -207,7 +207,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_12_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_12_QUOTE"
 			 Audio="BOCCHI_GW_12"
-			 Tourism="4"/>
+			 Tourism="6"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_13"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -215,7 +215,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_13_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_13_QUOTE"
 			 Audio="BOCCHI_GW_13"
-			 Tourism="4"/>
+			 Tourism="8"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_14"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -223,7 +223,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_14_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_14_QUOTE"
 			 Audio="BOCCHI_GW_14"
-			 Tourism="4"/>
+			 Tourism="8"/>
 	</GreatWorks>
 	
 	<GreatWork_YieldChanges>
@@ -235,15 +235,15 @@
 			 YieldChange="2"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_2" 
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="2"/>
 			
 		<Row GreatWorkType="GREATWORK_BOCCHI_3" 
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="2"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_4" 
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="2"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_5" 
@@ -254,7 +254,7 @@
 			 YieldChange="4"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_6" 
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="4"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_7" 
@@ -268,15 +268,15 @@
 			 YieldChange="2"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_8" 
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="4"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_9" 
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="4"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_10"
-			 YieldType="YIELD_GOLD"
+			 YieldType="YIELD_CULTURE"
 			 YieldChange="4"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_11"
