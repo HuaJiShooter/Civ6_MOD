@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>BOCCHI_THE_ROCK</Name>
+    <Guid>a0be6e11-ecab-47e5-aef9-b68d04bf2c2a</Guid>
+    <ProjectGuid>9b6691aa-739d-4f99-ac7a-6584a69752de</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Hua_Ji_Shooter</Authors>
+    <SpecialThanks>Hemmelfort</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>BOCCHI_THE_ROCK</AssemblyName>
+    <RootNamespace>BOCCHI_THE_ROCK</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>BOCCHI_THE_ROCK_Config.xml</File></UpdateDatabase><UpdateText id="text"><File>BOCCHI_THE_ROCK_Text.xml</File></UpdateText><UpdateIcons id="icon"><File>BOCCHI_THE_ROCK_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="colors"><File>BOCCHI_THE_ROCK_Colors.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateDatabase"><File>BOCCHI_THE_ROCK_Civilization.xml</File><File>BOCCHI_THE_ROCK_Unit.xml</File><File>BOCCHI_THE_ROCK_Buildings.xml</File><File>BOCCHI_THE_ROCK_Text.xml</File><File>BOCCHI_THE_ROCK_Icons.xml</File><File>BOCCHI_Leader.xml</File><File>KITA_Leader.xml</File><File>NIJIKA_Leader.xml</File><File>RYO_Leader.xml</File><File>GreatworkGreatpeople/GreatWork.xml</File><File>Modifier/CIVICBOOSTS_BOCCHI.xml</File><File>Modifier/STARRY_AUTO_THEME.xml</File><File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File><File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File></UpdateDatabase><UpdateText id="text"><File>BOCCHI_THE_ROCK_Text.xml</File><File>GreatworkGreatpeople/GreatWork_text.xml</File></UpdateText><UpdateIcons id="icon"><File>BOCCHI_THE_ROCK_Icons.xml</File><File>GreatworkGreatpeople/GreatWork_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File><File>ArtDefs/Buildings.artdef</File><File>ArtDefs/Civilizations.artdef</File><File>ArtDefs/FallbackLeaders.artdef</File><File>ArtDefs/Units.artdef</File></UpdateArt><UpdateDatabase id="color"><File>BOCCHI_THE_ROCK_Colors.xml</File></UpdateDatabase><AddUserInterfaces id="UpdateUI"><Properties><Context>InGame</Context></Properties><File>Lua/ChangeYieldFromTourism_UI.xml</File><File>Lua/CultureConquestedAddGold_UI.xml</File></AddUserInterfaces><AddGameplayScripts id="UpdateLua"><File>Lua/ChangeYieldFromTourism.lua</File><File>Lua/Ability_GuitarHero.lua</File><File>Lua/CultureConquestedAddGold.lua</File><File>Lua/Get_Bocchi_Chan.lua</File></AddGameplayScripts><UpdateAudio id="SB_BOCCHI"><File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File><File>Platforms/Windows/Audio/SB_BOCCHI.ini</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Unit.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GreatworkGreatpeople\GreatWork.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GreatworkGreatpeople\GreatWork_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GreatworkGreatpeople\GreatWork_text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Ability_GuitarHero.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\ChangeYieldFromTourism.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\ChangeYieldFromTourism_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\ChangeYieldFromTourism_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\CultureConquestedAddGold.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\CultureConquestedAddGold_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\CultureConquestedAddGold_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Get_Bocchi_Chan.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Modifier\CIVICBOOSTS_BOCCHI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Modifier\STARRY_AUTO_THEME.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Modifier\STARRY_CHANGE_MUSIC_TOURISM.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Modifier\TOURISM_CHANGE_MODIFIER.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1059498753.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\107248595.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\262551009.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\352436486.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\354452986.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\52633866.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\535202970.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\568905256.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\705137495.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\758159953.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\765800447.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\804905201.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\884554581.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\PluginInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SB_BOCCHI.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SB_BOCCHI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SB_BOCCHI.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RYO_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NIJIKA_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="KITA_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\BocchiGreatWork.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\BocchiTheRockDDS.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="GreatworkGreatpeople\" />
+    <Folder Include="Lua\" />
+    <Folder Include="Modifier\" />
+    <Folder Include="Platforms\" />
+    <Folder Include="Platforms\Windows\" />
+    <Folder Include="Platforms\Windows\Audio\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

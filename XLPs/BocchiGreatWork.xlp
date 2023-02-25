@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="BocchiGreatWork"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_1_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_1_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_1_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_1_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_1_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_1_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_3_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_3_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_3_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_3_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_3_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_3_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_4_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_4_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_4_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_4_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_4_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_4_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_5_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_5_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_5_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_5_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_5_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_5_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_7_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_7_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_7_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_7_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_7_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_7_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_10_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_10_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_10_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_10_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_10_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_10_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_11_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_11_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_11_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_11_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_11_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_11_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_12_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_12_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_12_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_12_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_12_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_12_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_14_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_14_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_14_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_14_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_14_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_14_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_8_256"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_8_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_8_45"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_8_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_BOCCHI_8_64"/>
+			<m_ObjectName text="ICON_GREATWORK_BOCCHI_8_64"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

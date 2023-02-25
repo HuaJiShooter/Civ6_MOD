@@ -581,6 +581,7 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
+				<Element text="BocchiGreatWork"/>
 				<Element text="BocchiTheRockDDS"/>
 			</relativePackagePaths>
 		</Element>
