@@ -46,6 +46,7 @@
       <File>Modifier/STARRY_AUTO_THEME.xml</File>
       <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
       <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
+      <File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File>
     </UpdateDatabase>
     <AddUserInterfaces id="UpdateUI">
 			<Properties>
@@ -113,6 +114,7 @@
     <File>Modifier/STARRY_AUTO_THEME.xml</File>
     <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
     <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
+    <File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File>
     
     <File>GreatworkGreatpeople/GreatWork1.xml</File>
     <File>GreatworkGreatpeople/GreatWork_text.xml</File>
