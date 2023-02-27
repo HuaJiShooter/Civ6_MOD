@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_Civilization -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:01:56 AM -->
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_BOCCHI_THE_ROCK" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_UNIT_JIMIHEN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_MUSEUM_MUSIC" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_STARRY" Kind="KIND_TRAIT"/>
+	</Types>
+
+
+	<!-- Civilization Base Info -->
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK"
+			 Name="LOC_CIVILIZATION_BOCCHI_THE_ROCK_NAME" 
+			 Description="LOC_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION"
+			 Adjective="LOC_CIVILIZATION_BOCCHI_THE_ROCK_ADJECTIVE"
+			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+			 RandomCityNameDepth="10"
+			 Ethnicity="ETHNICITY_ASIAN"/>
+	</Civilizations>
+	
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_BOCCHI" CapitalName="LOC_CITY_NAME_SHIMOKITAZAWA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_NIJIKA" CapitalName="LOC_CITY_NAME_SHIMOKITAZAWA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_RYO" CapitalName="LOC_CITY_NAME_SHIMOKITAZAWA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_KITA" CapitalName="LOC_CITY_NAME_SHIMOKITAZAWA"/>
+	</CivilizationLeaders>
+
+
+	<!-- Traits Definitions -->
+	<Traits>
+		<Row TraitType="TRAIT_UNIT_JIMIHEN" Name="LOC_UNIT_JIMIHEN_NAME" Description="LOC_UNIT_JIMIHEN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_MUSEUM_MUSIC" Name="LOC_BUILDING_MUSEUM_MUSIC_NAME" Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_STARRY" Name="LOC_BUILDING_STARRY_NAME" Description="LOC_BUILDING_STARRY_DESCRIPTION"/>
+	</Traits>
+	
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" TraitType="TRAIT_UNIT_JIMIHEN"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" TraitType="TRAIT_BUILDING_MUSEUM_MUSIC"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" TraitType="TRAIT_BUILDING_STARRY"/>
+	</CivilizationTraits>
+
+
+	<!-- Cities -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_KYOTO"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_TOKYO"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_OSAKA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_NAGOYA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_FUKUOKA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_SENDAI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_SHIZUOKA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_OKAYAMA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_TAKAMATSU"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_YOKOHAMA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_GIFU"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_NAGANO"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_TAKASAKI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_OTSU"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_AOMORI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_FUKUSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_MORIOKA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_HAKODATE"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_KOBE"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_HAMAMATSU"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_OKAZAKI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_FUKUI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_YAMAGATA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_KAGOSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_HIROSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_HIMEJI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_MATSUMOTO"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_OTA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_NUMAZU"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_SAPPORO"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_NAGASAKI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_TOTTORI"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_NAGAHAMA"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CityName="LOC_CITY_NAME_SHIMOKITAZAWA"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" CitizenName="LOC_CITIZEN_BOCCHI_THE_ROCK_FEMALE_4"/>
+	</CivilizationCitizenNames>
+
+	<!-- TODO Simple way to define the background on Loading and Diplomacy Screen -->
+</GameInfo>

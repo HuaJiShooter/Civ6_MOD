@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <BuildingModifiers>
+        <Row>
+            <BuildingType>BUILDING_STARRY</BuildingType>
+            <ModifierId>TRAIT_CHANGE_MUSIC_TOURISM</ModifierId>
+        </Row>
+    </BuildingModifiers>
+    <Modifiers>
+        <Row>
+            <ModifierId>TRAIT_CHANGE_MUSIC_TOURISM</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>TRAIT_CHANGE_MUSIC_TOURISM</ModifierId>
+            <Name>GreatWorkObjectType</Name>
+            <Value>GREATWORKOBJECT_MUSIC</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CHANGE_MUSIC_TOURISM</ModifierId>
+            <Name>ScalingFactor</Name>
+            <Value>150</Value>
+        </Row>
+    </ModifierArguments>
+    <!-- =============== RequirementSets =============== -->
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>IF_ITS_OWNER</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row>
+            <RequirementSetId>IF_ITS_OWNER</RequirementSetId>
+            <RequirementId>REQ_IF_CITY_HAVE_STARRY</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+    <!-- +++++++++++++++ Requirements +++++++++++++++ -->
+    <Requirements>
+        <Row>
+            <RequirementId>REQ_IF_CITY_HAVE_STARRY</RequirementId>
+            <RequirementType>REQUIREMENT_CITY_IS_ORIGINAL_OWNER</RequirementType>
+        </Row>
+    </Requirements>
+</GameInfo>

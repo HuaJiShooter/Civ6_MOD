@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:00:45 AM -->
+<GameData>
+	<!-- TODO记得完善-->
+	<Players>
+
+		<!-- Expansion 2 Support -->
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK"
+			 Domain="Players:Expansion2_Players"
+			 LeaderType="LEADER_BOCCHI"
+			 CivilizationName="LOC_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderName="LOC_LEADER_BOCCHI_NAME"
+			 LeaderIcon="ICON_LEADER_BOCCHI"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_BOCCHI_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_BOCCHI_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_BOCCHI"
+			 Portrait="IMG_SELECTION_FOREGROUND_BOCCHI"/>
+
+
+
+
+
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK"
+			 Domain="Players:Expansion2_Players"
+			 LeaderType="LEADER_RYO"
+			 CivilizationName="LOC_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderName="LOC_LEADER_RYO_NAME"
+			 LeaderIcon="ICON_LEADER_RYO"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_RYO_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_RYO_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_RYO"
+			 Portrait="IMG_SELECTION_FOREGROUND_RYO"/>
+
+
+
+
+
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK"
+			 Domain="Players:Expansion2_Players"
+			 LeaderType="LEADER_NIJIKA"
+			 CivilizationName="LOC_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderName="LOC_LEADER_NIJIKA_NAME"
+			 LeaderIcon="ICON_LEADER_NIJIKA"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_NIJIKA_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_NIJIKA_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_NIJIKA"
+			 Portrait="IMG_SELECTION_FOREGROUND_NIJIKA"/>
+		
+		
+		
+
+
+		<Row CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK"
+			 Domain="Players:Expansion2_Players"
+			 LeaderType="LEADER_KITA"
+			 CivilizationName="LOC_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderName="LOC_LEADER_KITA_NAME"
+			 LeaderIcon="ICON_LEADER_KITA"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_BOCCHI_THE_ROCK"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_KITA_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_KITA_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_KITA"
+			 Portrait="IMG_SELECTION_FOREGROUND_KITA"/>
+
+	</Players>
+
+	<PlayerItems>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_BOCCHI" Type="UNIT_JIMIHEN" Icon="ICON_UNIT_JIMIHEN" Name="LOC_UNIT_JIMIHEN_NAME" Description="LOC_UNIT_JIMIHEN_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_BOCCHI" Type="BUILDING_MUSEUM_MUSIC" Icon="ICON_BUILDING_MUSEUM_ART" Name="LOC_BUILDING_MUSEUM_MUSIC_NAME" Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_BOCCHI" Type="BUILDING_STARRY" Icon="ICON_BUILDING_STARRY" Name="LOC_BUILDING_STARRY_NAME" Description="LOC_BUILDING_STARRY_DESCRIPTION" SortIndex="20"/>
+
+
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_RYO" Type="UNIT_JIMIHEN" Icon="ICON_UNIT_JIMIHEN" Name="LOC_UNIT_JIMIHEN_NAME" Description="LOC_UNIT_JIMIHEN_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_RYO" Type="BUILDING_MUSEUM_MUSIC" Icon="ICON_BUILDING_MUSEUM_ART" Name="LOC_BUILDING_MUSEUM_MUSIC_NAME" Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_RYO" Type="BUILDING_STARRY" Icon="ICON_BUILDING_STARRY" Name="LOC_BUILDING_STARRY_NAME" Description="LOC_BUILDING_STARRY_DESCRIPTION" SortIndex="20"/>
+
+
+
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_NIJIKA" Type="UNIT_JIMIHEN" Icon="ICON_UNIT_JIMIHEN" Name="LOC_UNIT_JIMIHEN_NAME" Description="LOC_UNIT_JIMIHEN_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_NIJIKA" Type="BUILDING_MUSEUM_MUSIC" Icon="ICON_BUILDING_MUSEUM_ART" Name="LOC_BUILDING_MUSEUM_MUSIC_NAME" Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_NIJIKA" Type="BUILDING_STARRY" Icon="ICON_BUILDING_STARRY" Name="LOC_BUILDING_STARRY_NAME" Description="LOC_BUILDING_STARRY_DESCRIPTION" SortIndex="20"/>
+
+
+
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_KITA" Type="UNIT_JIMIHEN" Icon="ICON_UNIT_JIMIHEN" Name="LOC_UNIT_JIMIHEN_NAME" Description="LOC_UNIT_JIMIHEN_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_KITA" Type="BUILDING_MUSEUM_MUSIC" Icon="ICON_BUILDING_MUSEUM_ART" Name="LOC_BUILDING_MUSEUM_MUSIC_NAME" Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_BOCCHI_THE_ROCK" LeaderType="LEADER_KITA" Type="BUILDING_STARRY" Icon="ICON_BUILDING_STARRY" Name="LOC_BUILDING_STARRY_NAME" Description="LOC_BUILDING_STARRY_DESCRIPTION" SortIndex="20"/>
+		
+	</PlayerItems>
+
+
+</GameData>

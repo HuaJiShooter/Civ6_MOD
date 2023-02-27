@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_Text -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/24/2023 10:05:21 AM -->
+
+<GameData>
+
+	<LocalizedText>
+	
+	<!-- 伟人 -->
+	
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1_NAME" Language="zh_Hans_CN">
+			<Text>后藤一里的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RYO_1_NAME" Language="zh_Hans_CN">
+			<Text>山田凉的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KITA_1_NAME" Language="zh_Hans_CN">
+			<Text>喜多郁代的灵感1</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2_NAME" Language="zh_Hans_CN">
+			<Text>后藤一里的灵感2</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_RYO_2_NAME" Language="zh_Hans_CN">
+			<Text>山田凉的灵感2</Text>
+		</Replace>
+		
+	<!-- 巨作 -->
+	
+		<Replace Tag="LOC_GREATWORK_BOCCHI_1_NAME" Language="zh_Hans_CN">
+			<Text>青春症候群</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_1_QUOTE" Language="zh_Hans_CN">
+			<Text>奏响吧 以光的法兹让雷鸣声轰鸣</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_2_NAME" Language="zh_Hans_CN">
+			<Text>孤独东京</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_2_QUOTE" Language="zh_Hans_CN">
+			<Text>吉他的音色逐渐炽热是 因为我心中有青炎</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_3_NAME" Language="zh_Hans_CN">
+			<Text>失真</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_3_QUOTE" Language="zh_Hans_CN">
+			<Text>Distortion it’s Motion 一旦奏响便无法停止 [NEWLINE]命题也会被声带所撼动</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_4_NAME" Language="zh_Hans_CN">
+			<Text>秘密基地</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_4_QUOTE" Language="zh_Hans_CN">
+			<Text>这秘密基地 尚无人知晓 [NEWLINE]展开来的全景 灿烂辉煌</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_5_NAME" Language="zh_Hans_CN">
+			<Text>吉他与孤独与蓝色星球</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_5_QUOTE" Language="zh_Hans_CN">
+			<Text>还不够 还不够 我还未被任何人所注意[NEWLINE]好似杂乱无章的音律 不成声地呐喊着</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_6_NAME" Language="zh_Hans_CN">
+			<Text>不会唱情歌</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_6_QUOTE" Language="zh_Hans_CN">
+			<Text>就孤身一人　一直　一直　喊叫着  [NEWLINE]细小　而又洪亮的　发声　挣扎着</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_7_NAME" Language="zh_Hans_CN">
+			<Text>那个乐队</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_7_QUOTE" Language="zh_Hans_CN">
+			<Text>将双目紧闭 射入黑暗的后光  [NEWLINE]将双耳塞住 切实鸣响的心跳</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_8_NAME" Language="zh_Hans_CN">
+			<Text>卡拉卡拉</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_8_QUOTE" Language="zh_Hans_CN">
+			<Text>抛开聒噪纷乱的思考 这预支而来的生命[NEWLINE]此刻也得一点不剩地挥洒才行</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_9_NAME" Language="zh_Hans_CN">
+			<Text>小小的海</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_9_QUOTE" Language="zh_Hans_CN">
+			<Text>哭肿了的双眼 枯竭了的心海  [NEWLINE]今天也将不服输地探寻明日</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_10_NAME" Language="zh_Hans_CN">
+			<Text>有什么不好</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_10_QUOTE" Language="zh_Hans_CN">
+			<Text>告诉我吧 我该朝着何处前进？[NEWLINE]我一直在寻找着</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_11_NAME" Language="zh_Hans_CN">
+			<Text>绝不会忘记</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_11_QUOTE" Language="zh_Hans_CN">
+			<Text>蓝色的春天什么的 已经不再适合我了啊 [NEWLINE]即便如此我也知晓 那仅有一次的瞬间 孕育着短暂的梦</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_12_NAME" Language="zh_Hans_CN">
+			<Text>若能化作星座</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_12_QUOTE" Language="zh_Hans_CN">
+			<Text>若能与你相聚化作星座  [NEWLINE]在繁星降下的夜晚 将一瞬的愿望 [NEWLINE]对那闪烁着的 于空中摇曳颤抖的信号许下</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_13_NAME" Language="zh_Hans_CN">
+			<Text>往日重现</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_13_QUOTE" Language="zh_Hans_CN">
+			<Text>闪耀着阳光的早晨  实在是太过耀眼[NEWLINE]但总觉仅是如此 我的心也已浮于空中</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREATWORK_BOCCHI_14_NAME" Language="zh_Hans_CN">
+			<Text>翻转岩石，晨光洒落你身</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_BOCCHI_14_QUOTE" Language="zh_Hans_CN">
+			<Text>究竟做错了什么？ 就连那个也不曾知晓 [NEWLINE]辗转东西 翻来覆去 [NEWLINE]明明我本就一无所有 内心却隐隐作痛</Text>
+		</Replace>
+		
+		
+		
+		
+		
+	</LocalizedText>
+
+</GameData>

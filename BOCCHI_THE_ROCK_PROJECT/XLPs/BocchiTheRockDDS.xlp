@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="BocchiTheRockDDS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_32"/>
+			<m_ObjectName text="ICON_BOCCHI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_45"/>
+			<m_ObjectName text="ICON_BOCCHI_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_48"/>
+			<m_ObjectName text="ICON_BOCCHI_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_50"/>
+			<m_ObjectName text="ICON_BOCCHI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_55"/>
+			<m_ObjectName text="ICON_BOCCHI_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_64"/>
+			<m_ObjectName text="ICON_BOCCHI_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_80"/>
+			<m_ObjectName text="ICON_BOCCHI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOCCHI_256"/>
+			<m_ObjectName text="ICON_BOCCHI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STARRY_128"/>
+			<m_ObjectName text="ICON_BUILDING_STARRY_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STARRY_256"/>
+			<m_ObjectName text="ICON_BUILDING_STARRY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STARRY_32"/>
+			<m_ObjectName text="ICON_BUILDING_STARRY_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STARRY_38"/>
+			<m_ObjectName text="ICON_BUILDING_STARRY_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STARRY_50"/>
+			<m_ObjectName text="ICON_BUILDING_STARRY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STARRY_80"/>
+			<m_ObjectName text="ICON_BUILDING_STARRY_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_256"/>
+			<m_ObjectName text="ICON_KITA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_32"/>
+			<m_ObjectName text="ICON_KITA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_45"/>
+			<m_ObjectName text="ICON_KITA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_48"/>
+			<m_ObjectName text="ICON_KITA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_50"/>
+			<m_ObjectName text="ICON_KITA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_55"/>
+			<m_ObjectName text="ICON_KITA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_64"/>
+			<m_ObjectName text="ICON_KITA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_KITA_80"/>
+			<m_ObjectName text="ICON_KITA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_256"/>
+			<m_ObjectName text="ICON_NIJIKA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_32"/>
+			<m_ObjectName text="ICON_NIJIKA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_45"/>
+			<m_ObjectName text="ICON_NIJIKA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_48"/>
+			<m_ObjectName text="ICON_NIJIKA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_50"/>
+			<m_ObjectName text="ICON_NIJIKA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_55"/>
+			<m_ObjectName text="ICON_NIJIKA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_64"/>
+			<m_ObjectName text="ICON_NIJIKA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NIJIKA_80"/>
+			<m_ObjectName text="ICON_NIJIKA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_256"/>
+			<m_ObjectName text="ICON_RYO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_32"/>
+			<m_ObjectName text="ICON_RYO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_45"/>
+			<m_ObjectName text="ICON_RYO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_48"/>
+			<m_ObjectName text="ICON_RYO_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_50"/>
+			<m_ObjectName text="ICON_RYO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_55"/>
+			<m_ObjectName text="ICON_RYO_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_64"/>
+			<m_ObjectName text="ICON_RYO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RYO_80"/>
+			<m_ObjectName text="ICON_RYO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_22"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_256"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_32"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_38"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_50"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_80"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_JIMIHEN_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_JIMIHEN_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_SELECTION_FOREGROUND_BOCCHI"/>
+			<m_ObjectName text="IMG_SELECTION_FOREGROUND_BOCCHI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_SELECTION_FOREGROUND_KITA"/>
+			<m_ObjectName text="IMG_SELECTION_FOREGROUND_KITA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_SELECTION_FOREGROUND_NIJIKA"/>
+			<m_ObjectName text="IMG_SELECTION_FOREGROUND_NIJIKA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_SELECTION_FOREGROUND_RYO"/>
+			<m_ObjectName text="IMG_SELECTION_FOREGROUND_RYO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BACKGROUND_ONE"/>
+			<m_ObjectName text="BACKGROUND_ONE"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

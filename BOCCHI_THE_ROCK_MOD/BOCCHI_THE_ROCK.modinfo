@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a0be6e11-ecab-47e5-aef9-b68d04bf2c2a" version="1">
+  <Properties>
+    <Name>BOCCHI_THE_ROCK</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1677476922</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>Hua_Ji_Shooter</Authors>
+    <SpecialThanks>Hemmelfort</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="config">
+      <File>BOCCHI_THE_ROCK_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>BOCCHI_THE_ROCK_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>BOCCHI_THE_ROCK_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>BOCCHI_THE_ROCK.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="colors">
+      <File>BOCCHI_THE_ROCK_Colors.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>BOCCHI_THE_ROCK_Civilization.xml</File>
+      <File>BOCCHI_THE_ROCK_Unit.xml</File>
+      <File>BOCCHI_THE_ROCK_Buildings.xml</File>
+      <File>BOCCHI_THE_ROCK_Text.xml</File>
+      <File>BOCCHI_THE_ROCK_Icons.xml</File>
+      <File>BOCCHI_Leader.xml</File>
+      <File>KITA_Leader.xml</File>
+      <File>NIJIKA_Leader.xml</File>
+      <File>RYO_Leader.xml</File>
+      <File>GreatworkGreatpeople/GreatWork.xml</File>
+      <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
+      <File>Modifier/STARRY_AUTO_THEME.xml</File>
+      <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
+      <File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="text">
+      <File>BOCCHI_THE_ROCK_Text.xml</File>
+      <File>GreatworkGreatpeople/GreatWork_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="icon">
+      <File>BOCCHI_THE_ROCK_Icons.xml</File>
+      <File>GreatworkGreatpeople/GreatWork_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="art">
+      <File>BOCCHI_THE_ROCK.dep</File>
+      <File>ArtDefs/Buildings.artdef</File>
+      <File>ArtDefs/Civilizations.artdef</File>
+      <File>ArtDefs/FallbackLeaders.artdef</File>
+      <File>ArtDefs/Units.artdef</File>
+    </UpdateArt>
+    <UpdateDatabase id="color">
+      <File>BOCCHI_THE_ROCK_Colors.xml</File>
+    </UpdateDatabase>
+    <AddUserInterfaces id="UpdateUI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>Lua/ChangeYieldFromTourism_UI.xml</File>
+      <File>Lua/CultureConquestedAddGold_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="UpdateLua">
+      <File>Lua/ChangeYieldFromTourism.lua</File>
+      <File>Lua/Ability_GuitarHero.lua</File>
+      <File>Lua/CultureConquestedAddGold.lua</File>
+      <File>Lua/Get_Bocchi_Chan.lua</File>
+    </AddGameplayScripts>
+    <UpdateAudio id="SB_BOCCHI">
+      <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
+      <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
+      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BOCCHI_Leader.xml</File>
+    <File>BOCCHI_THE_ROCK.Art.xml</File>
+    <File>BOCCHI_THE_ROCK.dep</File>
+    <File>BOCCHI_THE_ROCK_Buildings.xml</File>
+    <File>BOCCHI_THE_ROCK_Civilization.xml</File>
+    <File>BOCCHI_THE_ROCK_Colors.xml</File>
+    <File>BOCCHI_THE_ROCK_Config.xml</File>
+    <File>BOCCHI_THE_ROCK_Icons.xml</File>
+    <File>BOCCHI_THE_ROCK_Text.xml</File>
+    <File>BOCCHI_THE_ROCK_Unit.xml</File>
+    <File>GreatworkGreatpeople/GreatWork.xml</File>
+    <File>GreatworkGreatpeople/GreatWork_Icons.xml</File>
+    <File>GreatworkGreatpeople/GreatWork_text.xml</File>
+    <File>KITA_Leader.xml</File>
+    <File>Lua/Ability_GuitarHero.lua</File>
+    <File>Lua/ChangeYieldFromTourism.lua</File>
+    <File>Lua/ChangeYieldFromTourism_UI.lua</File>
+    <File>Lua/ChangeYieldFromTourism_UI.xml</File>
+    <File>Lua/CultureConquestedAddGold.lua</File>
+    <File>Lua/CultureConquestedAddGold_UI.lua</File>
+    <File>Lua/CultureConquestedAddGold_UI.xml</File>
+    <File>Lua/Get_Bocchi_Chan.lua</File>
+    <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
+    <File>Modifier/STARRY_AUTO_THEME.xml</File>
+    <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
+    <File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File>
+    <File>NIJIKA_Leader.xml</File>
+    <File>Platforms/MacOS/BLPs/BocchiGreatWork.blp</File>
+    <File>Platforms/MacOS/BLPs/BocchiTheRockDDS.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/Audio/1059498753.wem</File>
+    <File>Platforms/Windows/Audio/107248595.wem</File>
+    <File>Platforms/Windows/Audio/262551009.wem</File>
+    <File>Platforms/Windows/Audio/352436486.wem</File>
+    <File>Platforms/Windows/Audio/354452986.wem</File>
+    <File>Platforms/Windows/Audio/52633866.wem</File>
+    <File>Platforms/Windows/Audio/535202970.wem</File>
+    <File>Platforms/Windows/Audio/568905256.wem</File>
+    <File>Platforms/Windows/Audio/705137495.wem</File>
+    <File>Platforms/Windows/Audio/758159953.wem</File>
+    <File>Platforms/Windows/Audio/765800447.wem</File>
+    <File>Platforms/Windows/Audio/804905201.wem</File>
+    <File>Platforms/Windows/Audio/884554581.wem</File>
+    <File>Platforms/Windows/Audio/PluginInfo.xml</File>
+    <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
+    <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
+    <File>Platforms/Windows/Audio/SB_BOCCHI.txt</File>
+    <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
+    <File>Platforms/Windows/BLPs/BocchiGreatWork.blp</File>
+    <File>Platforms/Windows/BLPs/BocchiTheRockDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>RYO_Leader.xml</File>
+    <File>XLPs/BocchiGreatWork.xlp</File>
+    <File>XLPs/BocchiTheRockDDS.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 1/27/2023 11:36:19 AM -->
+<GameData>
+
+	<Types>
+		<Row Type="LEADER_RYO" Kind="KIND_LEADER"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_RYO"
+			 Name="LOC_LEADER_RYO_NAME"
+			 Sex="Female"
+			 InheritFrom="LEADER_DEFAULT"
+			 SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_RYO"
+			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_QUOTE"
+			 QuoteAudio="Play_LEADER_RYO_QUOTES"/>
+	</LeaderQuotes>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_RYO" ForegroundImage="IMG_SELECTION_FOREGROUND_RYO" BackgroundImage="BACKGROUND_ONE"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_RYO" BackgroundImage="BACKGROUND_ONE"/>
+	</DiplomacyInfo>
+
+</GameData>
