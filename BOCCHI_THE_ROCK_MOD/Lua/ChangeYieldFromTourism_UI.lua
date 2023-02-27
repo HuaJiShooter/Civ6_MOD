@@ -11,14 +11,13 @@ function GetTurnsTourismTurnEnd()
 		local bCivic = sCivic == 'CIVILIZATION_BOCCHI_THE_ROCK'  --这里写孤独摇滚的文明名
 		
 		if bCivic then
+
 			local pPlayer = Players[value]
 			TourismThisRound = pPlayer:GetStats():GetTourism()
 			ExposedMembers.BOCCHITourism.ChangeYieldFromTourism(value, TourismThisRound)	--调用修改的函数
 			
 		end
-	
 	end
-	
 end
 
 function GetTurnsTourismTurnBegin()
@@ -39,9 +38,7 @@ function GetTurnsTourismTurnBegin()
 			ExposedMembers.BOCCHITourism.GameStartPlayerSettingBOCCHI(value, TourismThisRound)
 			
 		end
-	
 	end
-	
 end
 
 Events.TurnEnd.Add(GetTurnsTourismTurnEnd)

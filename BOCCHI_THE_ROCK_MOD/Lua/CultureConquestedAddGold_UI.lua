@@ -1,5 +1,37 @@
-function CultureConquestedAddGold()
+function CauculateConquestedAddGold(value)
 	
+	local AlivePlayerList = PlayerManager.GetAlive()
+	local ChangeAmount = 0
+
+			
+	local pPlayer = Players[value]
+	local NumVisitingUs = pPlayer:GetCulture():GetTouristsTo()
+	local PlayerNumbersNow = 0.0
+
+	for rowOtherCivIndex in pairs(AlivePlayerList) do
+		local OtherCivIndex = rowOtherCivIndex - 1
+		if Players[OtherCivIndex]:IsMajor() and value ~= OtherCivIndex then
+			PlayerNumbersNow = PlayerNumbersNow + 1.0
+		end
+	end
+			
+	for rowOtherCivIndex in pairs(AlivePlayerList) do
+		local OtherCivIndex = rowOtherCivIndex - 1
+		local OtherCiv = Players[OtherCivIndex]
+		if OtherCiv:IsMajor() then
+			local NumStaycationers = OtherCiv:GetCulture():GetStaycationers()
+				
+			if NumStaycationers < NumVisitingUs then
+				local OtherCivYield = OtherCiv:GetTreasury():GetGoldYield()
+				ChangeAmount = ChangeAmount + OtherCivYield*(0.5/PlayerNumbersNow)
+			end
+		end
+	end
+	return math.floor(ChangeAmount)
+end
+
+
+function CultureConquestedAddGoldTurnEnd()
 	local AlivePlayerList = PlayerManager.GetAlive()
 	
 	for rowvalue in pairs(AlivePlayerList) do
@@ -10,23 +42,31 @@ function CultureConquestedAddGold()
 		local bCivic = sCivic == 'CIVILIZATION_BOCCHI_THE_ROCK'
 		
 		if bCivic then
-			
-			local NumVisitingUs = pPlayer:GetCulture():GetTouristsTo()
-			pPlayer = Players[value]
-			local PlayerNumber = 0.0
+
+			local ChangeAmount = CauculateConquestedAddGold(value)
+			ExposedMembers.BOCCHIConquest.ChangeGoldBalanceFromConquest(value, ChangeAmount)
+
+		end
+	end
+end
+
+
+function CultureConquestedAddGoldTurnBegin()
+	local AlivePlayerList = PlayerManager.GetAlive()
+
+
+	for rowvalue in pairs(AlivePlayerList) do
+	
+		local value = rowvalue-1
+		local pPlayerConfig = PlayerConfigurations[value]
+		local sCivic =  pPlayerConfig:GetCivilizationTypeName()
+		local bCivic = sCivic == 'CIVILIZATION_BOCCHI_THE_ROCK'
 		
-			for rowOtherCivIndex in pairs(AlivePlayerList) do
-				local OtherCivIndex = rowOtherCivIndex - 1
-				local OtherCiv = Players[OtherCivIndex]
-				local NumStaycationers = OtherCiv:GetCulture():GetStaycationers()
-				PlayerNumber = PlayerNumber + 1.0
-				
-				if NumStaycationers < NumVisitingUs then
-					local OtherCivYield = OtherCiv:GetTreasury():GetGoldYield()
-					local ChangeAmount = math.floor(OtherCivYield*(0.5/PlayerNumber))
-					ExposedMembers.BOCCHIConquest.ChangeGoldBalanceFromConquest(value, ChangeAmount)
-				end
-			end
+		if bCivic then
+			
+			local ChangeAmount = CauculateConquestedAddGold(value)
+			ExposedMembers.BOCCHIConquest.PlayerSettingBOCCHI(value, ChangeAmount)
+			
 		end
 	end
 end
@@ -34,4 +74,5 @@ end
 
 					
 					
-Events.TurnEnd.Add(CultureConquestedAddGold)
+Events.TurnEnd.Add(CultureConquestedAddGoldTurnEnd)
+Events.TurnBegin.Add(CultureConquestedAddGoldTurnBegin)

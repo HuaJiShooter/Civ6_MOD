@@ -3,7 +3,7 @@
   <Properties>
     <Name>BOCCHI_THE_ROCK</Name>
     <Description>This is a brief description of the mod.</Description>
-    <Created>1677476922</Created>
+    <Created>1677515373</Created>
     <Teaser>This is a brief description of the mod.</Teaser>
     <Authors>Hua_Ji_Shooter</Authors>
     <SpecialThanks>Hemmelfort</SpecialThanks>
@@ -70,12 +70,14 @@
       </Properties>
       <File>Lua/ChangeYieldFromTourism_UI.xml</File>
       <File>Lua/CultureConquestedAddGold_UI.xml</File>
+      <File>Lua/GreatPersonPointFromTourist_UI.xml</File>
     </AddUserInterfaces>
     <AddGameplayScripts id="UpdateLua">
       <File>Lua/ChangeYieldFromTourism.lua</File>
       <File>Lua/Ability_GuitarHero.lua</File>
       <File>Lua/CultureConquestedAddGold.lua</File>
       <File>Lua/Get_Bocchi_Chan.lua</File>
+      <File>Lua/GreatPersonPointFromTourist.lua</File>
     </AddGameplayScripts>
     <UpdateAudio id="SB_BOCCHI">
       <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
@@ -110,6 +112,9 @@
     <File>Lua/CultureConquestedAddGold_UI.lua</File>
     <File>Lua/CultureConquestedAddGold_UI.xml</File>
     <File>Lua/Get_Bocchi_Chan.lua</File>
+    <File>Lua/GreatPersonPointFromTourist.lua</File>
+    <File>Lua/GreatPersonPointFromTourist_UI.lua</File>
+    <File>Lua/GreatPersonPointFromTourist_UI.xml</File>
     <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
     <File>Modifier/STARRY_AUTO_THEME.xml</File>
     <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>

@@ -1,6 +1,3 @@
-
-
-
 function ChangeYieldFromTourism(value, TourismThisRound)
 	
 	local ChangeAmount = math.floor(TourismThisRound * 0.3)  --这里是旅游业绩转化的数值百分比
@@ -20,7 +17,6 @@ function GameStartPlayerSettingBOCCHI(value, TourismThisRound)
 		Players[value].ModifierAmountNow = math.floor(TourismThisRound * 0.3)
 	end
 end
-
 
 function ChangeYieldBOCCHI (value, Amount, YIELD_TYPE:string)
 	local pPlayer = Players[value]
