@@ -68,6 +68,8 @@
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+
+		<Row BuildingType="BUILDING_STARRY" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="6"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>

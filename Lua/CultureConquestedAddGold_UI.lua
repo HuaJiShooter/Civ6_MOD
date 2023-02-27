@@ -23,13 +23,15 @@ function CultureConquestedAddGold()
 				
 				if NumStaycationers < NumVisitingUs then
 					local OtherCivYield = OtherCiv:GetTreasury():GetGoldYield()
-					local ChangeAmount = OtherCivYield*(0.5/PlayerNumber)
+					local ChangeAmount = math.floor(OtherCivYield*(0.5/PlayerNumber))
 					ExposedMembers.BOCCHIConquest.ChangeGoldBalanceFromConquest(value, ChangeAmount)
 				end
 			end
 		end
 	end
 end
+
+
 					
 					
 Events.TurnEnd.Add(CultureConquestedAddGold)
