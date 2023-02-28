@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 2/28/2023 12:56:42 PM -->
+<GameData>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ABILITY_BOCCHI_THE_ROCK</TraitType>
+			<ModifierId>BOCCHI_PALACE_MUSICSLOT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>BOCCHI_PALACE_MUSICSLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BOCCHI_PALACE_MUSICSLOT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOCCHI_PALACE_MUSICSLOT</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOCCHI_PALACE_MUSICSLOT</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

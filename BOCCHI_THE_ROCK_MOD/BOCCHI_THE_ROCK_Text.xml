@@ -23,7 +23,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_JIMIHEN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>吉米亨的描述</Text>
+			<Text>结束乐队的远古特色侦查单位，替代侦察兵，拥有+1移动力[ICON_Movement]，+1视野</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_MUSEUM_MUSIC_NAME" Language="zh_Hans_CN">
@@ -31,7 +31,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>音乐博物馆的描述</Text>
+			<Text>结束乐队的特色建筑。提供三个音乐著作槽位[ICON_GreatWork_Music]。[NEWLINE]如果在剧院广场区域已经有一座考古博物馆或艺术博物馆则无法修建</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_STARRY_NAME" Language="zh_Hans_CN">
@@ -39,17 +39,21 @@
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_STARRY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>下北泽STARRY的描述</Text>
+			<Text>结束乐队的特色建筑。提供四个音乐著作槽位[ICON_GreatWork_Music]，填满后将自动主题化，此城音乐巨作提供的旅游业绩[ICON_Tourism]＋50%，[NEWLINE]奖励一个总督头衔[NEWLINE]每回合＋6大音乐家点数[ICON_GreatMusician]</Text>
 		</Replace>
 
 		<!--文明能力-->
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_NAME" Language="zh_Hans_CN">
-			<Text>文明能力</Text>
+			<Text>结束乐队</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>文明能力的描述</Text>
+			<Text>
+				文明产生的旅游业绩（基础产出）的百分之30%将会转化为[ICON_Science]科技，[ICON_Culture]文化和[ICON_Gold]金币。获得被结束乐队文化征服的文明每回合[ICON_Gold]金币的(50/场上文明数量)%[NEWLINE]
+				每获得一名[ICON_Tourism]国际游客将会提供+50[ICON_GreatMusician]大音乐家点数。[NEWLINE]
+				当遇见除自身以外的第一个主要文明时，获得[ICON_GreatMusician]大音乐家后藤一里的灵感1。
+			</Text>
 		</Replace>
 		
 		<!--领袖-->
@@ -71,11 +75,11 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_BOCCHI_NAME" Language="zh_Hans_CN">
-			<Text>波奇酱的能力</Text>
+			<Text>吉他英雄</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_BOCCHI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>波奇酱的描述</Text>
+			<Text>文明每次创建巨作将会获得一次[ICON_CivicBoosted]鼓舞</Text>
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_RYO_NAME" Language="zh_Hans_CN">

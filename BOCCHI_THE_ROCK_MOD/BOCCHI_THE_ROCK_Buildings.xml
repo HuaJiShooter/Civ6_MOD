@@ -13,9 +13,9 @@
 		<Row BuildingType="BUILDING_MUSEUM_MUSIC"
 			 Name="LOC_BUILDING_MUSEUM_MUSIC_NAME"
 			 Description="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION"
-			 PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_THEATER"
+			 PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER"
 			 PurchaseYield="YIELD_GOLD"
-			 Cost="290"
+			 Cost="150"
 			 AdvisorType="ADVISOR_CULTURE"
 			 Maintenance="2"
 			 CitizenSlots="1"
@@ -35,7 +35,6 @@
 
 	<BuildingPrereqs>
 		
-		<Row Building="BUILDING_MUSEUM_MUSIC" PrereqBuilding="BUILDING_AMPHITHEATER"/>
 		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_MUSIC"/>
 
 		<Row Building="BUILDING_STARRY" PrereqBuilding="BUILDING_GOV_TALL"/>
@@ -79,6 +78,12 @@
 
 		<Row BuildingType="BUILDING_STARRY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
 	</Building_GreatWorks>
+
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_STARRY" Texture="Moment_Starry"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_MUSEUM_MUSIC" Texture="Moment_MusicMuseum"/>
+	</MomentIllustrations>
 	
 	
 	<!--TODO STARRY的修改器可能得加进去(疑似市政点)-->
