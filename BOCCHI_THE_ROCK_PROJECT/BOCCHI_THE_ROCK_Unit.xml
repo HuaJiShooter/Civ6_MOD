@@ -43,5 +43,9 @@
 	<UnitUpgrades>
 		<Row Unit="UNIT_JIMIHEN" UpgradeUnit="UNIT_RANGER"/>
 	</UnitUpgrades>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_JIMIHEN" Texture="Moment_Jimihen"/>
+	</MomentIllustrations>
 	
 </GameData>

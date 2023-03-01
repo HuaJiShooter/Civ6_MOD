@@ -17,15 +17,20 @@ end
 
 function CultureConquestChangeBOCCHI (value, Amount)
 	local pPlayer = Players[value]
+	local GoldModifierAmountNow = pPlayer.GoldModifierAmountNow
 	
 	if Amount >= 0 then
 		
-		for var = Players[value].GoldModifierAmountNow, 0, -1 do
-			pPlayer:AttachModifierByID("CAPITALCITY_REDUCELITTLE_YIELD_GOLD")
+		if GoldModifierAmountNow > Amount then
+			for var = GoldModifierAmountNow, Amount, -1 do
+				pPlayer:AttachModifierByID("CAPITALCITY_REDUCELITTLE_YIELD_GOLD")
+			end
 		end
-	
-		for var = 0, Amount, 1 do
-			pPlayer:AttachModifierByID("CAPITALCITY_ADDLITTLE_YIELD_GOLD")
+		
+		if GoldModifierAmountNow < Amount then
+			for var = Amount, GoldModifierAmountNow, 1 do
+				pPlayer:AttachModifierByID("CAPITALCITY_ADDLITTLE_YIELD_GOLD")
+			end
 		end
 	end
 end

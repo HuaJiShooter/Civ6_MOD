@@ -7,7 +7,7 @@ function GreatPersonPointFromTourist(PlayerID,TouristAmount)
 	local pPlayer = Players[PlayerID]
 
 	if TouristAmount > pPlayer.TouristAmountBefore then
-		local ChangeAmount = (TouristAmount - pPlayer.TouristAmountBefore)*50
+		local ChangeAmount = (TouristAmount - pPlayer.TouristAmountBefore)*30
 		local pPlayerCapitalcity = pPlayer:GetCities():GetCapitalCity()
 		local iCityX = pPlayerCapitalcity:GetX()
 		local iCityY = pPlayerCapitalcity:GetY()

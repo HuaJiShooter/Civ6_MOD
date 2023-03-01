@@ -281,6 +281,38 @@
 			<m_EntryID text="BACKGROUND_ONE"/>
 			<m_ObjectName text="BACKGROUND_ONE"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Moment_Jimihen"/>
+			<m_ObjectName text="Moment_Jimihen"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_MusicMuseum"/>
+			<m_ObjectName text="Moment_MusicMuseum"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Starry"/>
+			<m_ObjectName text="Moment_Starry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BackGround_Loading"/>
+			<m_ObjectName text="BackGround_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hitori_Loading"/>
+			<m_ObjectName text="Hitori_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kita_Loading"/>
+			<m_ObjectName text="Kita_Loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Nijika_loading"/>
+			<m_ObjectName text="Nijika_loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ryo_loading"/>
+			<m_ObjectName text="Ryo_loading"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

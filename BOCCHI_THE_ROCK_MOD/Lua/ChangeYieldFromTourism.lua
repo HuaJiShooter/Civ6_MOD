@@ -20,21 +20,27 @@ end
 
 function ChangeYieldBOCCHI (value, Amount, YIELD_TYPE:string)
 	local pPlayer = Players[value]
+	local ModifierAmountNow = pPlayer.ModifierAmountNow
 	local ModifierAddId:string = "CAPITALCITY_ADDLITTLE_" .. YIELD_TYPE
 	local ModifierReduceId:string = "CAPITALCITY_REDUCELITTLE_" .. YIELD_TYPE
 	
 	if Amount >= 0 then
+
+		if Amount < ModifierAmountNow then
 		
-		for var = Players[value].ModifierAmountNow, 0, -1 do
-			pPlayer:AttachModifierByID(ModifierReduceId)
+			for var = ModifierAmountNow, Amount, -1 do
+				pPlayer:AttachModifierByID(ModifierReduceId)
+			end
 		end
+
+		if Amount > ModifierAmountNow then
 	
-		for var = 0, Amount, 1 do
-			pPlayer:AttachModifierByID(ModifierAddId)
+			for var = ModifierAmountNow, Amount, 1 do
+				pPlayer:AttachModifierByID(ModifierAddId)
+			end
 		end
-		
+
 	end
-	
 end
 
 

@@ -75,4 +75,4 @@ end
 					
 					
 Events.TurnEnd.Add(CultureConquestedAddGoldTurnEnd)
-Events.TurnBegin.Add(CultureConquestedAddGoldTurnBegin)
+Events.LoadGameViewStateDone.Add(CultureConquestedAddGoldTurnBegin)

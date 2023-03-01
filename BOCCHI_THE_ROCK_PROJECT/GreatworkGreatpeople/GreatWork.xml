@@ -154,7 +154,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_5_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_5_QUOTE"
 			 Audio="BOCCHI_GW_05"
-			 Tourism="6"/>
+			 Tourism="8"/>
 		<Row GreatWorkType="GREATWORK_BOCCHI_6"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
 			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2" 
@@ -169,7 +169,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_7_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_7_QUOTE"
 			 Audio="BOCCHI_GW_07"
-			 Tourism="6"/>
+			 Tourism="8"/>
 		<Row GreatWorkType="GREATWORK_BOCCHI_8"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
 			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RYO_2" 
@@ -199,7 +199,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_11_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_11_QUOTE"
 			 Audio="BOCCHI_GW_11"
-			 Tourism="6"/>
+			 Tourism="8"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_12"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -207,7 +207,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_12_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_12_QUOTE"
 			 Audio="BOCCHI_GW_12"
-			 Tourism="6"/>
+			 Tourism="8"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_13"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"

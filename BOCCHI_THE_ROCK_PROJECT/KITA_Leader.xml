@@ -24,8 +24,8 @@
 
 	<LoadingInfo>
 		<Row LeaderType="LEADER_KITA"
-			 ForegroundImage="IMG_SELECTION_FOREGROUND_KITA"
-			 BackgroundImage="BACKGROUND_ONE" 
+			 ForegroundImage="Kita_Loading"
+			 BackgroundImage="BackGround_Loading" 
 			 EraText="LOC_LOADING_INFO_LEADER_DEFAULT"
 			 PlayDawnOfManAudio="1"/>
 	</LoadingInfo>

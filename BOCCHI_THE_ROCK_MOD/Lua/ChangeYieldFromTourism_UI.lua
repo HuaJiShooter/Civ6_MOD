@@ -42,4 +42,4 @@ function GetTurnsTourismTurnBegin()
 end
 
 Events.TurnEnd.Add(GetTurnsTourismTurnEnd)
-Events.TurnBegin.Add(GetTurnsTourismTurnBegin)
+Events.LoadGameViewStateDone.Add(GetTurnsTourismTurnBegin)
