@@ -11,55 +11,111 @@
 	<StreamedFiles>
 		<File Id="52633866" Language="SFX">
 			<ShortName>BOCCHI_BGM06.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM06_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM06_901D2429.wem</Path>
 		</File>
 		<File Id="107248595" Language="SFX">
 			<ShortName>BOCCHI_BGM07.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM07_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM07_901D2429.wem</Path>
 		</File>
 		<File Id="262551009" Language="SFX">
 			<ShortName>BOCCHI_BGM04.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM04_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM04_901D2429.wem</Path>
 		</File>
 		<File Id="352436486" Language="SFX">
 			<ShortName>BOCCHI_BGM08.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM08_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM08_901D2429.wem</Path>
 		</File>
 		<File Id="354452986" Language="SFX">
 			<ShortName>BOCCHI_BGM11.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM11_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM11_901D2429.wem</Path>
+		</File>
+		<File Id="468203831" Language="SFX">
+			<ShortName>忘れてやらない.wav</ShortName>
+			<Path>SFX\忘れてやらない_5C82BAA9.wem</Path>
+		</File>
+		<File Id="496695406" Language="SFX">
+			<ShortName>あのバンド.wav</ShortName>
+			<Path>SFX\あのバンド_5C82BAA9.wem</Path>
+		</File>
+		<File Id="529230925" Language="SFX">
+			<ShortName>カラカラ.wav</ShortName>
+			<Path>SFX\カラカラ_5C82BAA9.wem</Path>
 		</File>
 		<File Id="535202970" Language="SFX">
 			<ShortName>BOCCHI_BGM01.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM01_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM01_901D2429.wem</Path>
 		</File>
 		<File Id="568905256" Language="SFX">
 			<ShortName>BOCCHI_BGM12.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM12_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM12_901D2429.wem</Path>
+		</File>
+		<File Id="580823244" Language="SFX">
+			<ShortName>なにが悪い.wav</ShortName>
+			<Path>SFX\なにが悪い_5C82BAA9.wem</Path>
+		</File>
+		<File Id="691356043" Language="SFX">
+			<ShortName>ひみつ基地.wav</ShortName>
+			<Path>SFX\ひみつ基地_5C82BAA9.wem</Path>
 		</File>
 		<File Id="705137495" Language="SFX">
 			<ShortName>0101.wav</ShortName>
 			<Path>SFX\0101_5C82BAA9.wem</Path>
 		</File>
+		<File Id="712531751" Language="SFX">
+			<ShortName>ひとりぼっち東京.wav</ShortName>
+			<Path>SFX\ひとりぼっち東京_5C82BAA9.wem</Path>
+		</File>
 		<File Id="758159953" Language="SFX">
 			<ShortName>BOCCHI_BGM05.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM05_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM05_901D2429.wem</Path>
 		</File>
 		<File Id="765800447" Language="SFX">
 			<ShortName>BOCCHI_BGM02.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM02_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM02_901D2429.wem</Path>
+		</File>
+		<File Id="769242456" Language="SFX">
+			<ShortName>星座になれたら.wav</ShortName>
+			<Path>SFX\星座になれたら_5C82BAA9.wem</Path>
+		</File>
+		<File Id="781251230" Language="SFX">
+			<ShortName>ギターと孤独と蒼い惑星.wav</ShortName>
+			<Path>SFX\ギターと孤独と蒼い惑星_5C82BAA9.wem</Path>
+		</File>
+		<File Id="798349171" Language="SFX">
+			<ShortName>Distortion!!.wav</ShortName>
+			<Path>SFX\Distortion!!_5C82BAA9.wem</Path>
 		</File>
 		<File Id="804905201" Language="SFX">
 			<ShortName>BOCCHI_BGM03.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM03_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM03_901D2429.wem</Path>
+		</File>
+		<File Id="838442898" Language="SFX">
+			<ShortName>ラブソングが歌えない.wav</ShortName>
+			<Path>SFX\ラブソングが歌えない_5C82BAA9.wem</Path>
+		</File>
+		<File Id="845907876" Language="SFX">
+			<ShortName>小さな海.wav</ShortName>
+			<Path>SFX\小さな海_5C82BAA9.wem</Path>
 		</File>
 		<File Id="884554581" Language="SFX">
 			<ShortName>BOCCHI_BGM10.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM10_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM10_901D2429.wem</Path>
+		</File>
+		<File Id="1003375032" Language="SFX">
+			<ShortName>青春コンプレックス.wav</ShortName>
+			<Path>SFX\青春コンプレックス_5C82BAA9.wem</Path>
+		</File>
+		<File Id="1019316767" Language="SFX">
+			<ShortName>転がる岩、君に朝が降る.wav</ShortName>
+			<Path>SFX\転がる岩、君に朝が降る_5C82BAA9.wem</Path>
+		</File>
+		<File Id="1051305189" Language="SFX">
+			<ShortName>フラッシュバッカー.wav</ShortName>
+			<Path>SFX\フラッシュバッカー_5C82BAA9.wem</Path>
 		</File>
 		<File Id="1059498753" Language="SFX">
 			<ShortName>BOCCHI_BGM09.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM09_CBA0BD48.wem</Path>
+			<Path>SFX\BOCCHI_BGM09_901D2429.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -72,6 +128,20 @@
 			<ShortName>SB_BOCCHI</ShortName>
 			<Path>SB_BOCCHI.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3213357707" Name="BACKGROUND_BOCCHI_GW_01"/>
+				<Event Id="3213357704" Name="BACKGROUND_BOCCHI_GW_02"/>
+				<Event Id="3213357705" Name="BACKGROUND_BOCCHI_GW_03"/>
+				<Event Id="3213357710" Name="BACKGROUND_BOCCHI_GW_04"/>
+				<Event Id="3213357711" Name="BACKGROUND_BOCCHI_GW_05"/>
+				<Event Id="3213357708" Name="BACKGROUND_BOCCHI_GW_06"/>
+				<Event Id="3213357709" Name="BACKGROUND_BOCCHI_GW_07"/>
+				<Event Id="3213357698" Name="BACKGROUND_BOCCHI_GW_08"/>
+				<Event Id="3213357699" Name="BACKGROUND_BOCCHI_GW_09"/>
+				<Event Id="3230135421" Name="BACKGROUND_BOCCHI_GW_10"/>
+				<Event Id="3230135420" Name="BACKGROUND_BOCCHI_GW_11"/>
+				<Event Id="3230135423" Name="BACKGROUND_BOCCHI_GW_12"/>
+				<Event Id="3230135422" Name="BACKGROUND_BOCCHI_GW_13"/>
+				<Event Id="3230135417" Name="BACKGROUND_BOCCHI_GW_14"/>
 				<Event Id="1033155570" Name="Pause_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="184947753" Name="Play_BOCCHI_GW_01"/>
 				<Event Id="184947754" Name="Play_BOCCHI_GW_02"/>
@@ -91,6 +161,8 @@
 				<Event Id="1469988668" Name="Play_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="1150270207" Name="Resume_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="761636084" Name="Start_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="2317735787" Name="Stop_BOCCHI_GW"/>
+				<Event Id="3619903758" Name="Stop_BOCCHI_GW_BACKGROUND"/>
 				<Event Id="2188684384" Name="Stop_Leader_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="3450026250" Name="Stop_Music_BOCCHI_THE_ROCK"/>
 			</IncludedEvents>
@@ -100,19 +172,33 @@
 				<File Id="262551009"/>
 				<File Id="352436486"/>
 				<File Id="354452986"/>
+				<File Id="468203831"/>
+				<File Id="496695406"/>
+				<File Id="529230925"/>
 				<File Id="535202970"/>
 				<File Id="568905256"/>
+				<File Id="580823244"/>
+				<File Id="691356043"/>
 				<File Id="705137495"/>
+				<File Id="712531751"/>
 				<File Id="758159953"/>
 				<File Id="765800447"/>
+				<File Id="769242456"/>
+				<File Id="781251230"/>
+				<File Id="798349171"/>
 				<File Id="804905201"/>
+				<File Id="838442898"/>
+				<File Id="845907876"/>
 				<File Id="884554581"/>
+				<File Id="1003375032"/>
+				<File Id="1019316767"/>
+				<File Id="1051305189"/>
 				<File Id="1059498753"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="10901000" Language="SFX">
 					<ShortName>1_10 なにが悪い_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_10 なにが悪い_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_10 なにが悪い_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="117329484" Language="SFX">
 					<ShortName>GW12.wav</ShortName>
@@ -136,11 +222,11 @@
 				</File>
 				<File Id="433435124" Language="SFX">
 					<ShortName>1_02 ひとりぼっち東京_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_02 ひとりぼっち東京_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_02 ひとりぼっち東京_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="459056391" Language="SFX">
 					<ShortName>1_09 小さな海_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_09 小さな海_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_09 小さな海_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="492769563" Language="SFX">
 					<ShortName>GW14.wav</ShortName>
@@ -148,23 +234,23 @@
 				</File>
 				<File Id="500660764" Language="SFX">
 					<ShortName>1_03 Distortion!!_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_03 Distortion!!_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_03 Distortion!!_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="535398804" Language="SFX">
 					<ShortName>1_13 フラッシュバッカー_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_13 フラッシュバッカー_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_13 フラッシュバッカー_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="553107440" Language="SFX">
 					<ShortName>1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="589139801" Language="SFX">
 					<ShortName>1_12 星座になれたら_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_12 星座になれたら_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_12 星座になれたら_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="633114155" Language="SFX">
 					<ShortName>1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="686496508" Language="SFX">
 					<ShortName>GW11.wav</ShortName>
@@ -176,23 +262,23 @@
 				</File>
 				<File Id="751368837" Language="SFX">
 					<ShortName>1_05 ギターと孤独と蒼い惑星_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_05 ギターと孤独と蒼い惑星_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_05 ギターと孤独と蒼い惑星_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="789051943" Language="SFX">
 					<ShortName>1_11 忘れてやらない_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_11 忘れてやらない_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_11 忘れてやらない_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="824166456" Language="SFX">
 					<ShortName>1_04 ひみつ基地_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_04 ひみつ基地_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_04 ひみつ基地_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="844827578" Language="SFX">
 					<ShortName>1_07 あのバンド_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_07 あのバンド_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_07 あのバンド_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="856111329" Language="SFX">
 					<ShortName>1_08 カラカラ_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_08 カラカラ_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_08 カラカラ_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="908084806" Language="SFX">
 					<ShortName>GW07.wav</ShortName>
@@ -212,7 +298,7 @@
 				</File>
 				<File Id="1047254224" Language="SFX">
 					<ShortName>1_01 青春コンプレックス_1_HP-UVR_(Instrumental).wav</ShortName>
-					<Path>SFX\1_01 青春コンプレックス_1_HP-UVR_(Instrumental)_CBA0BD48.wem</Path>
+					<Path>SFX\1_01 青春コンプレックス_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
 				<File Id="1052266531" Language="SFX">
 					<ShortName>GW02.wav</ShortName>
