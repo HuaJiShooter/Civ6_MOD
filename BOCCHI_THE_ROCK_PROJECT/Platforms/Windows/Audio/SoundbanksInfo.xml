@@ -45,10 +45,6 @@
 			<ShortName>BOCCHI_BGM01.wav</ShortName>
 			<Path>SFX\BOCCHI_BGM01_901D2429.wem</Path>
 		</File>
-		<File Id="568905256" Language="SFX">
-			<ShortName>BOCCHI_BGM12.wav</ShortName>
-			<Path>SFX\BOCCHI_BGM12_901D2429.wem</Path>
-		</File>
 		<File Id="580823244" Language="SFX">
 			<ShortName>なにが悪い.wav</ShortName>
 			<Path>SFX\なにが悪い_5C82BAA9.wem</Path>
@@ -142,6 +138,7 @@
 				<Event Id="3230135423" Name="BACKGROUND_BOCCHI_GW_12"/>
 				<Event Id="3230135422" Name="BACKGROUND_BOCCHI_GW_13"/>
 				<Event Id="3230135417" Name="BACKGROUND_BOCCHI_GW_14"/>
+				<Event Id="137176758" Name="Pause_BOCCHI_GW_BACKGROUND"/>
 				<Event Id="1033155570" Name="Pause_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="184947753" Name="Play_BOCCHI_GW_01"/>
 				<Event Id="184947754" Name="Play_BOCCHI_GW_02"/>
@@ -158,7 +155,18 @@
 				<Event Id="201725336" Name="Play_BOCCHI_GW_13"/>
 				<Event Id="201725343" Name="Play_BOCCHI_GW_14"/>
 				<Event Id="647791590" Name="Play_Leader_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="167257800" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_KITA_1_NAME"/>
+				<Event Id="1423667085" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_KITA_2_NAME"/>
+				<Event Id="3146830931" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_1_NAME"/>
+				<Event Id="837273130" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_2_NAME"/>
+				<Event Id="1587260725" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_3_NAME"/>
+				<Event Id="1307710540" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_KOTOU_HITORI_4_NAME"/>
+				<Event Id="4152305471" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_NIJIKA_1_NAME"/>
+				<Event Id="3701444566" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_NIJIKA_2_NAME"/>
+				<Event Id="1780807087" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_RYO_1_NAME"/>
+				<Event Id="2828171142" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_RYO_2_NAME"/>
 				<Event Id="1469988668" Name="Play_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="3006772913" Name="Resume_BOCCHI_GW_BACKGROUND"/>
 				<Event Id="1150270207" Name="Resume_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="761636084" Name="Start_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="2317735787" Name="Stop_BOCCHI_GW"/>
@@ -176,7 +184,6 @@
 				<File Id="496695406"/>
 				<File Id="529230925"/>
 				<File Id="535202970"/>
-				<File Id="568905256"/>
 				<File Id="580823244"/>
 				<File Id="691356043"/>
 				<File Id="705137495"/>
@@ -204,9 +211,17 @@
 					<ShortName>GW12.wav</ShortName>
 					<Path>SFX\GW12_988004FB.wem</Path>
 				</File>
+				<File Id="183885699" Language="SFX">
+					<ShortName>KITA_1.wav</ShortName>
+					<Path>SFX\KITA_1_988004FB.wem</Path>
+				</File>
 				<File Id="191274196" Language="SFX">
 					<ShortName>GW09.wav</ShortName>
 					<Path>SFX\GW09_988004FB.wem</Path>
+				</File>
+				<File Id="201847940" Language="SFX">
+					<ShortName>BOCCHI_4.wav</ShortName>
+					<Path>SFX\BOCCHI_4_988004FB.wem</Path>
 				</File>
 				<File Id="252906603" Language="SFX">
 					<ShortName>GW06.wav</ShortName>
@@ -219,6 +234,10 @@
 				<File Id="376332913" Language="SFX">
 					<ShortName>GW13.wav</ShortName>
 					<Path>SFX\GW13_988004FB.wem</Path>
+				</File>
+				<File Id="429907140" Language="SFX">
+					<ShortName>BOCCHI_3.wav</ShortName>
+					<Path>SFX\BOCCHI_3_988004FB.wem</Path>
 				</File>
 				<File Id="433435124" Language="SFX">
 					<ShortName>1_02 ひとりぼっち東京_1_HP-UVR_(Instrumental).wav</ShortName>
@@ -236,6 +255,10 @@
 					<ShortName>1_03 Distortion!!_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_03 Distortion!!_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
+				<File Id="515945786" Language="SFX">
+					<ShortName>KITA_2.wav</ShortName>
+					<Path>SFX\KITA_2_988004FB.wem</Path>
+				</File>
 				<File Id="535398804" Language="SFX">
 					<ShortName>1_13 フラッシュバッカー_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_13 フラッシュバッカー_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
@@ -244,6 +267,10 @@
 					<ShortName>1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_06 ラブソングが歌えない_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
+				<File Id="564245054" Language="SFX">
+					<ShortName>RYO_2.wav</ShortName>
+					<Path>SFX\RYO_2_988004FB.wem</Path>
+				</File>
 				<File Id="589139801" Language="SFX">
 					<ShortName>1_12 星座になれたら_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_12 星座になれたら_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
@@ -251,6 +278,10 @@
 				<File Id="633114155" Language="SFX">
 					<ShortName>1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_14 転がる岩、君に朝が降る_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
+				</File>
+				<File Id="676667507" Language="SFX">
+					<ShortName>BOCCHI_2.wav</ShortName>
+					<Path>SFX\BOCCHI_2_988004FB.wem</Path>
 				</File>
 				<File Id="686496508" Language="SFX">
 					<ShortName>GW11.wav</ShortName>
@@ -280,6 +311,10 @@
 					<ShortName>1_08 カラカラ_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_08 カラカラ_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
 				</File>
+				<File Id="881094799" Language="SFX">
+					<ShortName>NIJIKA_1.wav</ShortName>
+					<Path>SFX\NIJIKA_1_988004FB.wem</Path>
+				</File>
 				<File Id="908084806" Language="SFX">
 					<ShortName>GW07.wav</ShortName>
 					<Path>SFX\GW07_988004FB.wem</Path>
@@ -292,9 +327,21 @@
 					<ShortName>GW04.wav</ShortName>
 					<Path>SFX\GW04_988004FB.wem</Path>
 				</File>
+				<File Id="972875885" Language="SFX">
+					<ShortName>RYO_1.wav</ShortName>
+					<Path>SFX\RYO_1_988004FB.wem</Path>
+				</File>
 				<File Id="980217547" Language="SFX">
 					<ShortName>GW03.wav</ShortName>
 					<Path>SFX\GW03_988004FB.wem</Path>
+				</File>
+				<File Id="985146291" Language="SFX">
+					<ShortName>BOCCHI_1.wav</ShortName>
+					<Path>SFX\BOCCHI_1_988004FB.wem</Path>
+				</File>
+				<File Id="1012220391" Language="SFX">
+					<ShortName>波奇发电.wav</ShortName>
+					<Path>SFX\波奇发电_901D2429.wem</Path>
 				</File>
 				<File Id="1047254224" Language="SFX">
 					<ShortName>1_01 青春コンプレックス_1_HP-UVR_(Instrumental).wav</ShortName>

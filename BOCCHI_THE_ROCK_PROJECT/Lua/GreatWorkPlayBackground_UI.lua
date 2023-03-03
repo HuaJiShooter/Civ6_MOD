@@ -16,4 +16,29 @@ function BocchiGreatWorkPlay(playerID:number, creatorID:number, cityX:number, ci
 	end
 end
 
+function OpenDiplomacyPauseBGM()
+	UI.PlaySound("Pause_BOCCHI_GW_BACKGROUND")
+end
+
+function CloseDiplomacyResumeBGM()
+	UI.PlaySound("Resume_BOCCHI_GW_BACKGROUND")
+end
+
+function ExitGameStopBGM()
+	UI.PlaySound("Stop_BOCCHI_GW_BACKGROUND")
+end
+
+function PlayBocchiGreatPeople(player, unitId, locationX, locationY, locationZ, isSelected, isEditable)
+	local pUnit = UnitManager.GetUnit(player,unitId)
+	local sUnitName = tostring(pUnit:GetName())
+	UI.PlaySound("Play_" .. sUnitName)
+end
+
+
+LuaEvents.DiplomacyRibbon_OpenDiplomacyActionView.Add(OpenDiplomacyPauseBGM)
+LuaEvents.DiploScene_SceneClosed.Add(CloseDiplomacyResumeBGM)
+Events.PlayerDefeat.Add(ExitGameStopBGM)
+Events.TeamVictory.Add(ExitGameStopBGM)
+Events.FinishedGameplayContentConfigure.Add(ExitGameStopBGM)
 Events.GreatWorkCreated.Add(BocchiGreatWorkPlay)
+Events.UnitSelectionChanged.Add(PlayBocchiGreatPeople);
