@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOCCHI_THE_ROCK_COLOR_DB -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 3/4/2023 11:36:20 PM -->
+<Database>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_BOCCHI_PRIMARY</Type>
+			<Color>255,34,145,255</Color>
+		</Row>
+
+		<Row>
+			<Type>COLOR_PLAYER_RYO_PRIMARY</Type>
+			<Color>2,209,224,255</Color>
+		</Row>
+
+		<Row>
+			<Type>COLOR_PLAYER_NIJIKA_PRIMARY</Type>
+			<Color>255,180,0,255</Color>
+		</Row>
+
+		<Row>
+			<Type>COLOR_PLAYER_KITA_PRIMARY</Type>
+			<Color>255,70,55,255</Color>
+		</Row>
+
+		<Row>
+			<Type>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</Type>
+			<Color>0,0,0,255</Color>
+		</Row>
+	</Colors>
+</Database>

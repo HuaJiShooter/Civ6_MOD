@@ -23,7 +23,7 @@
 	</LeaderQuotes>
 
 	<LoadingInfo>
-		<Row LeaderType="LEADER_RYO" ForegroundImage="Ryo_Loading" BackgroundImage="BackGround_Loading"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_RYO" ForegroundImage="Ryo_loading" BackgroundImage="BackGround_Loading"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 
 	<DiplomacyInfo>

@@ -35,6 +35,6 @@ function CultureConquestChangeBOCCHI (value, Amount)
 	end
 end
 
-ExposedMembers.BOCCHIConquest = ExposedMembers.BOCCHIConquest or {}
-ExposedMembers.BOCCHIConquest.ChangeGoldBalanceFromConquest = ChangeGoldBalanceFromConquest
-ExposedMembers.BOCCHIConquest.PlayerSettingBOCCHI = PlayerSettingBOCCHI
+ExposedMembers.RYOConquest = ExposedMembers.RYOConquest or {}
+ExposedMembers.RYOConquest.ChangeGoldBalanceFromConquest = ChangeGoldBalanceFromConquest
+ExposedMembers.RYOConquest.PlayerSettingBOCCHI = PlayerSettingBOCCHI

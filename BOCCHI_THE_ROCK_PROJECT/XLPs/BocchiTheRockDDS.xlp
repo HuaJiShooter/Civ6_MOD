@@ -66,58 +66,6 @@
 			<m_ObjectName text="ICON_BUILDING_STARRY_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_128"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_200"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_200"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_22"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_256"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_30"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_32"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_36"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_36"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_44"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_44"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_45"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_48"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_50"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_64"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_80"/>
-			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_KITA_256"/>
 			<m_ObjectName text="ICON_KITA_256"/>
 		</Element>
@@ -312,6 +260,266 @@
 		<Element>
 			<m_EntryID text="Ryo_loading"/>
 			<m_ObjectName text="Ryo_loading"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_BLUE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_PINK_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_RED_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_BOCCHI_THE_ROCK_YELLOW_80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 3/4/2023 10:08:43 PM -->
+<GameInfo>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ABILITY_BOCCHI_THE_ROCK</TraitType>
+			<ModifierId>ADD_TOURISM_MUSIC_GREATWORK</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ADD_TOURISM_MUSIC_GREATWORK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<Permanent>True</Permanent>
+			<SubjectRequirementSetId>REQ_SET_ERA_ANCIENT_OR_CLASSICAL</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ADD_TOURISM_MUSIC_GREATWORK</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>ADD_TOURISM_MUSIC_GREATWORK</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_SET_ERA_ANCIENT_OR_CLASSICAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_SET_ERA_ANCIENT_OR_CLASSICAL</RequirementSetId>
+			<RequirementId>REQ_IS_ERA_ANCIENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_SET_ERA_ANCIENT_OR_CLASSICAL</RequirementSetId>
+			<RequirementId>REQ_IS_ERA_CLASSICAL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_IS_ERA_ANCIENT</RequirementId>
+			<RequirementType>REQUIREMENT_GAME_ERA_IS</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQ_IS_ERA_CLASSICAL</RequirementId>
+			<RequirementType>REQUIREMENT_GAME_ERA_IS</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_IS_ERA_ANCIENT</RequirementId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_IS_ERA_CLASSICAL</RequirementId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

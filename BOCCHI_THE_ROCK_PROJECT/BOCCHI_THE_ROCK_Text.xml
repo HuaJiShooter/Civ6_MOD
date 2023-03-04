@@ -31,7 +31,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_MUSEUM_MUSIC_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>结束乐队的特色建筑。提供三个音乐著作槽位[ICON_GreatWork_Music]。[NEWLINE]如果在剧院广场区域已经有一座考古博物馆或艺术博物馆则无法修建</Text>
+			<Text>结束乐队的特色建筑。提供三个音乐著作槽位[ICON_GreatWork_Music]。每回合＋3[ICON_GreatMusician]大音乐家点数</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_STARRY_NAME" Language="zh_Hans_CN">
@@ -39,7 +39,9 @@
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_STARRY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>结束乐队的特色建筑。提供四个音乐著作槽位[ICON_GreatWork_Music]，填满后将自动主题化，此城音乐巨作提供的旅游业绩[ICON_Tourism]＋50%，[NEWLINE]奖励一个总督头衔[NEWLINE]每回合＋6大音乐家点数[ICON_GreatMusician]</Text>
+			<Text>结束乐队的特色建筑。提供四个[ICON_GreatWork_Music]音乐著作槽位，填满后将自动主题化，此城音乐巨作提供的[ICON_Tourism]旅游业绩＋50%，[NEWLINE]
+			奖励一个总督头衔[NEWLINE]
+			每回合＋6[ICON_GreatMusician]大音乐家点数</Text>
 		</Replace>
 
 		<!--文明能力-->
@@ -50,9 +52,10 @@
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BOCCHI_THE_ROCK_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
-				文明产生的旅游业绩（基础产出）的百分之30%将会转化为[ICON_Science]科技，[ICON_Culture]文化和[ICON_Gold]金币。获得被结束乐队文化征服的文明每回合[ICON_Gold]金币的(50/场上文明数量)%[NEWLINE]
+				文明产生的旅游业绩的百分之20%将会转化为[ICON_Science]科技，[ICON_Culture]文化和[ICON_Gold]金币并赋予给首都。建造剧院广场的时间减半。
 				每获得一名[ICON_Tourism]国际游客将会提供+50[ICON_GreatMusician]大音乐家点数。[NEWLINE]
-				当遇见除自身以外的第一个主要文明时，获得[ICON_GreatMusician]大音乐家后藤一里的灵感1。
+				当遇见除自身以外的第一个主要文明时，获得[ICON_GreatMusician]大音乐家后藤一里的灵感1，
+				远古时代和古典时代时文明[ICON_GreatWork_Music]音乐巨作产生的[ICON_Tourism]旅游业绩＋100％。
 			</Text>
 		</Replace>
 		
@@ -63,7 +66,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_NIJIKA_NAME" Language="zh_Hans_CN">
-			<Text>虹夏的能力</Text>
+			<Text>下北泽の大天使</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_NIJIKA_DESCRIPTION" Language="zh_Hans_CN">
@@ -91,7 +94,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_RYO_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>凉能力的描述</Text>
+			<Text>获得被凉文化征服的文明每回合[ICON_Gold]金币的(100/场上文明数量)%并赋予给首都</Text>
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_KITA_NAME" Language="zh_Hans_CN">

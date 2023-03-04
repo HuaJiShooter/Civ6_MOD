@@ -1,3 +1,6 @@
+---‘› ±Œ¥≤‚ ‘
+
+
 function CauculateConquestedAddGold(value)
 	
 	local AlivePlayerList = PlayerManager.GetAlive()
@@ -23,7 +26,7 @@ function CauculateConquestedAddGold(value)
 				
 			if NumStaycationers < NumVisitingUs then
 				local OtherCivYield = OtherCiv:GetTreasury():GetGoldYield()
-				ChangeAmount = ChangeAmount + OtherCivYield*(0.5/PlayerNumbersNow)
+				ChangeAmount = ChangeAmount + OtherCivYield*(1.0/PlayerNumbersNow)
 			end
 		end
 	end
@@ -38,13 +41,13 @@ function CultureConquestedAddGoldTurnEnd()
 	
 		local value = rowvalue - 1
 		local pPlayerConfig = PlayerConfigurations[value]
-		local sCivic =  pPlayerConfig:GetCivilizationTypeName()
-		local bCivic = sCivic == 'CIVILIZATION_BOCCHI_THE_ROCK'
+		local sLeader =  pPlayerConfig:GetLeaderTypeName()
+		local bLeader = sLeader == 'Leader_RYO'
 		
-		if bCivic then
+		if bLeader then
 
 			local ChangeAmount = CauculateConquestedAddGold(value)
-			ExposedMembers.BOCCHIConquest.ChangeGoldBalanceFromConquest(value, ChangeAmount)
+			ExposedMembers.RYOConquest.ChangeGoldBalanceFromConquest(value, ChangeAmount)
 
 		end
 	end
@@ -59,13 +62,13 @@ function CultureConquestedAddGoldTurnBegin()
 	
 		local value = rowvalue-1
 		local pPlayerConfig = PlayerConfigurations[value]
-		local sCivic =  pPlayerConfig:GetCivilizationTypeName()
-		local bCivic = sCivic == 'CIVILIZATION_BOCCHI_THE_ROCK'
+		local sLeader =  pPlayerConfig:GetLeaderTypeName()
+		local bLeader = sLeader == 'Leader_RYO'
 		
-		if bCivic then
+		if bLeader then
 			
 			local ChangeAmount = CauculateConquestedAddGold(value)
-			ExposedMembers.BOCCHIConquest.PlayerSettingBOCCHI(value, ChangeAmount)
+			ExposedMembers.RYOConquest.PlayerSettingBOCCHI(value, ChangeAmount)
 			
 		end
 	end

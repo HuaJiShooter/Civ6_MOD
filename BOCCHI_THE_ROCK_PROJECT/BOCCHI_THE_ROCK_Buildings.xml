@@ -47,11 +47,6 @@
 	</BuildingPrereqs>
 
 	<MutuallyExclusiveBuildings>
-		<Row Building="BUILDING_MUSEUM_MUSIC" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ART"/>
-		<Row Building="BUILDING_MUSEUM_MUSIC" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ARTIFACT"/>
-		<Row Building="BUILDING_MUSEUM_ART" MutuallyExclusiveBuilding="BUILDING_MUSEUM_MUSIC"/>
-		<Row Building="BUILDING_MUSEUM_ARTIFACT" MutuallyExclusiveBuilding="BUILDING_MUSEUM_MUSIC"/>
-
 		<Row Building="BUILDING_GOV_CITYSTATES" MutuallyExclusiveBuilding="BUILDING_STARRY"/>
 		<Row Building="BUILDING_GOV_SPIES" MutuallyExclusiveBuilding="BUILDING_STARRY"/>
 		<Row Building="BUILDING_GOV_FAITH" MutuallyExclusiveBuilding="BUILDING_STARRY"/>
@@ -65,8 +60,7 @@
 	</Building_YieldChanges>
 
 	<Building_GreatPersonPoints>
-		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
-		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MUSEUM_MUSIC" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="3"/>
 
 		<Row BuildingType="BUILDING_STARRY" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="6"/>
 	</Building_GreatPersonPoints>

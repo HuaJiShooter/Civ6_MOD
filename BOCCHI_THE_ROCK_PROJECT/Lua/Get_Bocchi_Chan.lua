@@ -25,7 +25,7 @@ function HITORIMusic(player1ID, player2ID)
 			local class = GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_MUSICIAN"].Hash;
 			local era = GameInfo.Eras["ERA_ANCIENT"].Hash;
 			local cost = 0;
-			Game.GetGreatPeople():GrantPerson(individual, class, era, cost, playerID, false);
+			Game.GetGreatPeople():GrantPerson(individual, class, era, cost, player1ID, false);
 		end
 	end
 end

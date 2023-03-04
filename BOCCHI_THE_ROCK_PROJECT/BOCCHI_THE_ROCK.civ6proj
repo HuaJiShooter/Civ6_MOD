@@ -2,14 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>BOCCHI_THE_ROCK</Name>
+    <Name>孤独摇滚文明包BOCCHI_THE_ROCK</Name>
     <Guid>a0be6e11-ecab-47e5-aef9-b68d04bf2c2a</Guid>
     <ProjectGuid>9b6691aa-739d-4f99-ac7a-6584a69752de</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>This is a brief description of the mod.</Teaser>
     <Description>This is a brief description of the mod.</Description>
-    <Authors>Hua_Ji_Shooter</Authors>
-    <SpecialThanks>Hemmelfort</SpecialThanks>
+    <Authors>Hua_Ji_Shooter(滑稽射手)</Authors>
+    <SpecialThanks>Hemmelfort,Yuni</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -20,8 +20,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>BOCCHI_THE_ROCK</AssemblyName>
     <RootNamespace>BOCCHI_THE_ROCK</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>BOCCHI_THE_ROCK_Config.xml</File></UpdateDatabase><UpdateText id="text"><File>BOCCHI_THE_ROCK_Text.xml</File></UpdateText><UpdateIcons id="icon"><File>BOCCHI_THE_ROCK_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="colors"><File>BOCCHI_THE_ROCK_Colors.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateDatabase"><File>BOCCHI_THE_ROCK_Civilization.xml</File><File>BOCCHI_THE_ROCK_Unit.xml</File><File>BOCCHI_THE_ROCK_Buildings.xml</File><File>BOCCHI_THE_ROCK_Text.xml</File><File>BOCCHI_THE_ROCK_Icons.xml</File><File>BOCCHI_Leader.xml</File><File>KITA_Leader.xml</File><File>NIJIKA_Leader.xml</File><File>RYO_Leader.xml</File><File>GreatworkGreatpeople/GreatWork.xml</File><File>Modifier/CIVICBOOSTS_BOCCHI.xml</File><File>Modifier/STARRY_AUTO_THEME.xml</File><File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File><File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File><File>Modifier/PALACE_MUSICSLOT.xml</File></UpdateDatabase><UpdateText id="text"><File>BOCCHI_THE_ROCK_Text.xml</File><File>GreatworkGreatpeople/GreatWork_text.xml</File></UpdateText><UpdateIcons id="icon"><File>BOCCHI_THE_ROCK_Icons.xml</File><File>GreatworkGreatpeople/GreatWork_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File><File>ArtDefs/Buildings.artdef</File><File>ArtDefs/Civilizations.artdef</File><File>ArtDefs/FallbackLeaders.artdef</File><File>ArtDefs/Units.artdef</File></UpdateArt><UpdateDatabase id="color"><File>BOCCHI_THE_ROCK_Colors.xml</File></UpdateDatabase><AddUserInterfaces id="UpdateUI"><Properties><Context>InGame</Context></Properties><File>Lua/ChangeYieldFromTourism_UI.xml</File><File>Lua/CultureConquestedAddGold_UI.xml</File><File>Lua/GreatPersonPointFromTourist_UI.xml</File><File>Lua/GreatWorkPlayBackground_UI.xml</File></AddUserInterfaces><AddGameplayScripts id="UpdateLua"><File>Lua/ChangeYieldFromTourism.lua</File><File>Lua/Ability_GuitarHero.lua</File><File>Lua/CultureConquestedAddGold.lua</File><File>Lua/Get_Bocchi_Chan.lua</File><File>Lua/GreatPersonPointFromTourist.lua</File></AddGameplayScripts><UpdateAudio id="SB_BOCCHI"><File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File><File>Platforms/Windows/Audio/SB_BOCCHI.ini</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>BOCCHI_THE_ROCK_Config.xml</File><File>BOCCHI_THE_ROCK_Colors_DB.xml</File></UpdateDatabase><UpdateText id="text"><File>BOCCHI_THE_ROCK_Text.xml</File></UpdateText><UpdateIcons id="icon"><File>BOCCHI_THE_ROCK_Icons.xml</File><File>BOCCHI_THE_ROCK_Config_Icon.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="colors"><File>BOCCHI_THE_ROCK_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateDatabase"><File>BOCCHI_THE_ROCK_Civilization.xml</File><File>BOCCHI_THE_ROCK_Unit.xml</File><File>BOCCHI_THE_ROCK_Buildings.xml</File><File>BOCCHI_THE_ROCK_Text.xml</File><File>BOCCHI_THE_ROCK_Icons.xml</File><File>BOCCHI_Leader.xml</File><File>KITA_Leader.xml</File><File>NIJIKA_Leader.xml</File><File>RYO_Leader.xml</File><File>GreatworkGreatpeople/GreatWork.xml</File><File>Modifier/CIVICBOOSTS_BOCCHI.xml</File><File>Modifier/STARRY_AUTO_THEME.xml</File><File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File><File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File><File>Modifier/PALACE_MUSICSLOT.xml</File><File>Modifier/ADD_MUSIC_TOURISM.xml</File><File>BOCCHI_THE_ROCK_Colors_DB.xml</File></UpdateDatabase><UpdateText id="text"><File>BOCCHI_THE_ROCK_Text.xml</File><File>GreatworkGreatpeople/GreatWork_text.xml</File></UpdateText><UpdateIcons id="icon"><File>BOCCHI_THE_ROCK_Icons.xml</File><File>GreatworkGreatpeople/GreatWork_Icons.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File><File>ArtDefs/Buildings.artdef</File><File>ArtDefs/Civilizations.artdef</File><File>ArtDefs/FallbackLeaders.artdef</File><File>ArtDefs/Units.artdef</File></UpdateArt><UpdateColors id="color"><File>BOCCHI_THE_ROCK_Colors.xml</File></UpdateColors><AddUserInterfaces id="UpdateUI"><Properties><Context>InGame</Context></Properties><File>Lua/ChangeYieldFromTourism_UI.xml</File><File>Lua/CultureConquestedAddGold_UI.xml</File><File>Lua/GreatPersonPointFromTourist_UI.xml</File><File>Lua/GreatWorkPlayBackground_UI.xml</File></AddUserInterfaces><AddGameplayScripts id="UpdateLua"><File>Lua/ChangeYieldFromTourism.lua</File><File>Lua/Ability_GuitarHero.lua</File><File>Lua/CultureConquestedAddGold.lua</File><File>Lua/Get_Bocchi_Chan.lua</File><File>Lua/GreatPersonPointFromTourist.lua</File></AddGameplayScripts><UpdateAudio id="SB_BOCCHI"><File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File><File>Platforms/Windows/Audio/SB_BOCCHI.ini</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -51,6 +51,9 @@
     <Content Include="BOCCHI_THE_ROCK_Colors.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="BOCCHI_THE_ROCK_Colors_DB.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="BOCCHI_THE_ROCK_Config.xml">
       <SubType>Content</SubType>
     </Content>
@@ -64,6 +67,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="BOCCHI_THE_ROCK.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BOCCHI_THE_ROCK_Config_Icon.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="GreatworkGreatpeople\GreatWork.xml">
@@ -115,6 +121,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Modifier\CIVICBOOSTS_BOCCHI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Modifier\ADD_MUSIC_TOURISM.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Modifier\PALACE_MUSICSLOT.xml">
