@@ -28,6 +28,15 @@ function ExitGameStopBGM()
 	UI.PlaySound("Stop_BOCCHI_GW_BACKGROUND")
 end
 
+function DefeatStopBGM(PlayerID)
+	local LocalPlayer = Game.GetLocalPlayer()
+	local DefeatPlayer = Players[PlayerID]
+	if LocalPlayer:GetID() ~= DefeatPlayer:GetID() then
+		return
+	end
+	UI.PlaySound("Stop_BOCCHI_GW_BACKGROUND")
+end
+
 function PlayBocchiGreatPeople(player, unitId, locationX, locationY, locationZ, isSelected, isEditable)
 	local pUnit = UnitManager.GetUnit(player,unitId)
 	local sUnitName = tostring(pUnit:GetName())
@@ -37,8 +46,11 @@ end
 
 LuaEvents.DiplomacyRibbon_OpenDiplomacyActionView.Add(OpenDiplomacyPauseBGM)
 LuaEvents.DiploScene_SceneClosed.Add(CloseDiplomacyResumeBGM)
-Events.PlayerDefeat.Add(ExitGameStopBGM)
+Events.PlayerDefeat.Add(DefeatStopBGM)
 Events.TeamVictory.Add(ExitGameStopBGM)
+
+-- 在音乐播放的时候和其他文明相遇会重新开始播放背景音乐
+-- 重新加载时音乐不会停
 Events.FinishedGameplayContentConfigure.Add(ExitGameStopBGM)
 Events.GreatWorkCreated.Add(BocchiGreatWorkPlay)
 Events.UnitSelectionChanged.Add(PlayBocchiGreatPeople);

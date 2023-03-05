@@ -1,6 +1,6 @@
 function ChangeYieldFromTourism(value, TourismThisRound)
 	
-	local ChangeAmount = math.floor(TourismThisRound * 0.3)  --这里是旅游业绩转化的数值百分比
+	local ChangeAmount = math.floor(TourismThisRound * 0.2)  --这里是旅游业绩转化的数值百分比
 	
 	ChangeYieldBOCCHI(value, ChangeAmount, "YIELD_CULTURE")
 	ChangeYieldBOCCHI(value, ChangeAmount, "YIELD_SCIENCE")
@@ -14,7 +14,7 @@ function GameStartPlayerSettingBOCCHI(value, TourismThisRound)
 	local pPlayer = Players[value]
 	if pPlayer.ModifierAmountNow == nil then
 		table.insert(Players[value], "ModifierAmountNow")
-		Players[value].ModifierAmountNow = math.floor(TourismThisRound * 0.3)
+		Players[value].ModifierAmountNow = math.floor(TourismThisRound * 0.2)
 	end
 end
 

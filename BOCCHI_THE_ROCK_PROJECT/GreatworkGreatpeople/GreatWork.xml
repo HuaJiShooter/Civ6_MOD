@@ -123,7 +123,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_1_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_1_QUOTE"
 			 Audio="BOCCHI_GW_01"
-			 Tourism="8"/>
+			 Tourism="6"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_2"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -131,7 +131,7 @@
 			 Name="LOC_GREATWORK_BOCCHI_2_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_2_QUOTE"
 			 Audio="BOCCHI_GW_02"
-			 Tourism="8"/>
+			 Tourism="4"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_3"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
@@ -139,14 +139,14 @@
 			 Name="LOC_GREATWORK_BOCCHI_3_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_3_QUOTE"
 			 Audio="BOCCHI_GW_03"
-			 Tourism="8"/>	 
+			 Tourism="6"/>	 
 		<Row GreatWorkType="GREATWORK_BOCCHI_4"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"
 			 GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_KITA_1" 
 			 Name="LOC_GREATWORK_BOCCHI_4_NAME"
 			 Quote="LOC_GREATWORK_BOCCHI_4_QUOTE"
 			 Audio="BOCCHI_GW_04"
-			 Tourism="8"/>
+			 Tourism="6"/>
 			 
 		<Row GreatWorkType="GREATWORK_BOCCHI_5"
 			 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"

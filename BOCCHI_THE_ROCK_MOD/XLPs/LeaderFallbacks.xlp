@@ -10,8 +10,40 @@
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND"/>
-			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND"/>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_BOCCHI"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_BOCCHI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_BOCCHI_FRIEND"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_BOCCHI_FRIEND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_KITA"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_KITA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_KITA_FRIEND"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_KITA_FRIEND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_NIJIKA"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_NIJIKA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_NIJIKA_FRIEND"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_NIJIKA_FRIEND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_RYO"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_RYO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_RYO_ENRAGED"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_RYO_ENRAGED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_FOREGROUND_RYO_FRIEND"/>
+			<m_ObjectName text="IMG_DIPLOMACY_FOREGROUND_RYO_FRIEND"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

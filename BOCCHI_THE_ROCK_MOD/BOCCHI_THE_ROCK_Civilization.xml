@@ -97,4 +97,9 @@
 	</CivilizationCitizenNames>
 
 	<!-- TODO Simple way to define the background on Loading and Diplomacy Screen -->
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_ABILITY_BOCCHI_THE_ROCK" ModifierId="TRAIT_BOOST_THEATER_DISTRICT_PRODUCTION"/>
+	</TraitModifiers>
+	
 </GameInfo>

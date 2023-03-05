@@ -16,6 +16,12 @@
 			 SceneLayers="4"/>
 	</Leaders>
 
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_RYO" AgendaType="AGENDA_MONEY_GRUBBER"/>
+		<Row LeaderType="LEADER_RYO" AgendaType="AGENDA_CULTURED"/>
+		<Row LeaderType="LEADER_RYO" AgendaType="AGENDA_PEACEKEEPER"/>
+	</HistoricalAgendas>
+
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_RYO"
 			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_QUOTE"
@@ -23,7 +29,7 @@
 	</LeaderQuotes>
 
 	<LoadingInfo>
-		<Row LeaderType="LEADER_RYO" ForegroundImage="Ryo_Loading" BackgroundImage="BackGround_Loading"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_RYO" ForegroundImage="Ryo_loading" BackgroundImage="BackGround_Loading"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 
 	<DiplomacyInfo>

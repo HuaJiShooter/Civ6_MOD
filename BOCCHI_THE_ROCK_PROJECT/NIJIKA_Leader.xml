@@ -22,8 +22,14 @@
 			 QuoteAudio="Play_LEADER_NIJIKA_QUOTES"/>
 	</LeaderQuotes>
 
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_NIJIKA" AgendaType="AGENDA_CULTURED"/>
+		<Row LeaderType="LEADER_NIJIKA" AgendaType="AGENDA_PEACEKEEPER"/>
+		<Row LeaderType="LEADER_NIJIKA" AgendaType="AGENDA_FUN_LOVING"/>
+	</HistoricalAgendas>
+
 	<LoadingInfo>
-		<Row LeaderType="LEADER_NIJIKA" ForegroundImage="Nijika_Loading" BackgroundImage="BackGround_Loading"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_NIJIKA" ForegroundImage="Nijika_loading" BackgroundImage="BackGround_Loading"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 
 	<DiplomacyInfo>

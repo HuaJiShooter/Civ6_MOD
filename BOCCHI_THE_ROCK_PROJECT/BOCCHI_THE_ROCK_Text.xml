@@ -118,7 +118,7 @@
 		</Replace>
 		
 		
-		<!--TODO市民-->
+		<!--市民-->
 
 		<Replace Tag="LOC_CITIZEN_BOCCHI_THE_ROCK_MALE_1" Language="zh_Hans_CN">
 			<Text>后藤 正文</Text>
@@ -305,6 +305,18 @@
 		</Replace>
 		<Replace Tag="LOC_GREATWORK_BOCCHI_14_QUOTE" Language="zh_Hans_CN">
 			<Text>究竟做错了什么？ 就连那个也不曾知晓 [NEWLINE]辗转东西 翻来覆去 [NEWLINE]明明我本就一无所有 内心却隐隐作痛</Text>
+		</Replace>
+		
+	<!--议程-->
+
+		<Replace Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>后藤一里对你的科技和文化落后感到很欣慰</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_VAIN_HOPE_NAME" Language="zh_Hans_CN">
+			<Text>社恐的妄想</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_VAIN_HOPE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢科技和文化落后的文明</Text>
 		</Replace>
 
 

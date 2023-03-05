@@ -22,6 +22,12 @@
 			 QuoteAudio="Play_LEADER_KITA_QUOTES"/>
 	</LeaderQuotes>
 
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_KITA" AgendaType="AGENDA_CULTURED"/>
+		<Row LeaderType="LEADER_KITA" AgendaType="AGENDA_PEACEKEEPER"/>
+		<Row LeaderType="LEADER_KITA" AgendaType="AGENDA_ENTHUSIASTIC_DISCIPLE"/>
+	</HistoricalAgendas>
+
 	<LoadingInfo>
 		<Row LeaderType="LEADER_KITA"
 			 ForegroundImage="Kita_Loading"

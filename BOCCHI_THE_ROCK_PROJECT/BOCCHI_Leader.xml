@@ -6,7 +6,30 @@
 
 	<Types>
 		<Row Type="LEADER_BOCCHI" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_VAIN_HOPE" Kind="KIND_TRAIT"/>
 	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_VAIN_HOPE"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_VAIN_HOPE" ModifierId="AGENDA_VAIN_HOPE_LOW_SCIENCE_LOW_CULTURE"/>
+	</TraitModifiers>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_VAIN_HOPE" TraitType="TRAIT_AGENDA_VAIN_HOPE"/>
+	</AgendaTraits>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_VAIN_HOPE" Name="LOC_AGENDA_VAIN_HOPE_NAME" Description="LOC_AGENDA_VAIN_HOPE_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_BOCCHI" AgendaType="AGENDA_VAIN_HOPE"/>
+		<Row LeaderType="LEADER_BOCCHI" AgendaType="AGENDA_CULTURED"/>
+		<Row LeaderType="LEADER_BOCCHI" AgendaType="AGENDA_PEACEKEEPER"/>
+	</HistoricalAgendas>
 
 	<Leaders>
 		<Row LeaderType="LEADER_BOCCHI" 
@@ -28,5 +51,70 @@
 	<DiplomacyInfo>
 		<Row Type="LEADER_BOCCHI" BackgroundImage="BACKGROUND_ONE"/>
 	</DiplomacyInfo>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_VAIN_HOPE_LOW_SCIENCE_LOW_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_CULTURE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+
+
+	<ModifierArguments>
+		
+		<Row>
+			<ModifierId>AGENDA_VAIN_HOPE_LOW_SCIENCE_LOW_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_VAIN_HOPE_LOW_SCIENCE_LOW_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_SHINGYOUJI_YUNI_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_VAIN_HOPE_LOW_SCIENCE_LOW_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE</Value>
+		</Row>
+		
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_VAIN_HOPE_LOW_SCIENCE_LOW_CULTURE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LOW_CULTURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LOW_SCIENCE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	
 	
 </GameData>

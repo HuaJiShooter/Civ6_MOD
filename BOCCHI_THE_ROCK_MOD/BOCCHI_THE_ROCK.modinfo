@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="a0be6e11-ecab-47e5-aef9-b68d04bf2c2a" version="1">
   <Properties>
-    <Name>BOCCHI_THE_ROCK</Name>
+    <Name>孤独摇滚文明包BOCCHI_THE_ROCK</Name>
     <Description>This is a brief description of the mod.</Description>
-    <Created>1677827004</Created>
+    <Created>1678019984</Created>
     <Teaser>This is a brief description of the mod.</Teaser>
-    <Authors>Hua_Ji_Shooter</Authors>
-    <SpecialThanks>Hemmelfort</SpecialThanks>
+    <Authors>Hua_Ji_Shooter(滑稽射手)</Authors>
+    <SpecialThanks>Hemmelfort,Yuni</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <Dependencies>
@@ -15,19 +15,21 @@
   <FrontEndActions>
     <UpdateDatabase id="config">
       <File>BOCCHI_THE_ROCK_Config.xml</File>
+      <File>BOCCHI_THE_ROCK_Colors_DB.xml</File>
     </UpdateDatabase>
     <UpdateText id="text">
       <File>BOCCHI_THE_ROCK_Text.xml</File>
     </UpdateText>
     <UpdateIcons id="icon">
       <File>BOCCHI_THE_ROCK_Icons.xml</File>
+      <File>BOCCHI_THE_ROCK_Config_Icon.xml</File>
     </UpdateIcons>
     <UpdateArt id="art">
       <File>BOCCHI_THE_ROCK.dep</File>
     </UpdateArt>
-    <UpdateDatabase id="colors">
+    <UpdateColors id="colors">
       <File>BOCCHI_THE_ROCK_Colors.xml</File>
-    </UpdateDatabase>
+    </UpdateColors>
   </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="UpdateDatabase">
@@ -46,6 +48,8 @@
       <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>
       <File>Modifier/TOURISM_CHANGE_MODIFIER.xml</File>
       <File>Modifier/PALACE_MUSICSLOT.xml</File>
+      <File>Modifier/ADD_MUSIC_TOURISM.xml</File>
+      <File>BOCCHI_THE_ROCK_Colors_DB.xml</File>
     </UpdateDatabase>
     <UpdateText id="text">
       <File>BOCCHI_THE_ROCK_Text.xml</File>
@@ -62,9 +66,9 @@
       <File>ArtDefs/FallbackLeaders.artdef</File>
       <File>ArtDefs/Units.artdef</File>
     </UpdateArt>
-    <UpdateDatabase id="color">
+    <UpdateColors id="color">
       <File>BOCCHI_THE_ROCK_Colors.xml</File>
-    </UpdateDatabase>
+    </UpdateColors>
     <AddUserInterfaces id="UpdateUI">
       <Properties>
         <Context>InGame</Context>
@@ -98,7 +102,9 @@
     <File>BOCCHI_THE_ROCK_Buildings.xml</File>
     <File>BOCCHI_THE_ROCK_Civilization.xml</File>
     <File>BOCCHI_THE_ROCK_Colors.xml</File>
+    <File>BOCCHI_THE_ROCK_Colors_DB.xml</File>
     <File>BOCCHI_THE_ROCK_Config.xml</File>
+    <File>BOCCHI_THE_ROCK_Config_Icon.xml</File>
     <File>BOCCHI_THE_ROCK_Icons.xml</File>
     <File>BOCCHI_THE_ROCK_Text.xml</File>
     <File>BOCCHI_THE_ROCK_Unit.xml</File>
@@ -119,6 +125,7 @@
     <File>Lua/GreatPersonPointFromTourist_UI.xml</File>
     <File>Lua/GreatWorkPlayBackground_UI.lua</File>
     <File>Lua/GreatWorkPlayBackground_UI.xml</File>
+    <File>Modifier/ADD_MUSIC_TOURISM.xml</File>
     <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
     <File>Modifier/PALACE_MUSICSLOT.xml</File>
     <File>Modifier/STARRY_AUTO_THEME.xml</File>

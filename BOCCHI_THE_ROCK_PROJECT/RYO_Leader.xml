@@ -16,6 +16,12 @@
 			 SceneLayers="4"/>
 	</Leaders>
 
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_RYO" AgendaType="AGENDA_MONEY_GRUBBER"/>
+		<Row LeaderType="LEADER_RYO" AgendaType="AGENDA_CULTURED"/>
+		<Row LeaderType="LEADER_RYO" AgendaType="AGENDA_PEACEKEEPER"/>
+	</HistoricalAgendas>
+
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_RYO"
 			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_QUOTE"
