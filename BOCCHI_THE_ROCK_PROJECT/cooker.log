@@ -5,9 +5,9 @@ C:\Users\14830\Documents\Firaxis ModBuddy\Civilization VI\BOCCHI_THE_ROCK\BOCCHI
 Opened output file: C:\Users\14830\Documents\My Games\Sid Meier's Civilization VI\Mods\BOCCHI_THE_ROCK\Platforms\MacOS\BLPs/LeaderFallbacks.blp    For XLP: 'C:\Users\14830\Documents\Firaxis ModBuddy\Civilization VI\BOCCHI_THE_ROCK\BOCCHI_THE_ROCK\XLPs\LeaderFallbacks.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'LeaderFallbacks'
-Load finished for: 'LeaderFallbacks' in 0.051 seconds
+Load finished for: 'LeaderFallbacks' in 0.064 seconds
 Cook finished for: 'LeaderFallbacks' in 0.000 seconds
-Disk write finished for: 'LeaderFallbacks' in 0.066 seconds
-Cleanup finished for: 'LeaderFallbacks' in 0.004 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.070 seconds
+Cleanup finished for: 'LeaderFallbacks' in 0.005 seconds
 XLP cook completed with success.
-Cook completed in 0.130 seconds
+Cook completed in 0.152 seconds

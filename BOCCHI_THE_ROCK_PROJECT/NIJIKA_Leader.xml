@@ -6,7 +6,16 @@
 
 	<Types>
 		<Row Type="LEADER_NIJIKA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_NIJIKA" Kind="KIND_TRAIT"/>
 	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_NIJIKA" Name="LOC_TRAIT_LEADER_NIJIKA_NAME" Description="LOC_TRAIT_LEADER_NIJIKA_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_NIJIKA" TraitType="TRAIT_LEADER_NIJIKA"/>
+	</LeaderTraits>
 
 	<Leaders>
 		<Row LeaderType="LEADER_NIJIKA"

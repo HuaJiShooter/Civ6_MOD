@@ -70,7 +70,8 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_NIJIKA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>虹夏能力的描述</Text>
+			<Text>建造娱乐中心的时间减半。[NEWLINE]
+			加成资源如同奢侈品资源一样，每种类型资源提供1点[ICON_Amenities] 宜居度</Text>
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_BOCCHI_NAME" Language="zh_Hans_CN">
@@ -102,11 +103,19 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_KITA_NAME" Language="zh_Hans_CN">
-			<Text>喜多的能力</Text>
+			<Text>逃走的吉他手</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_KITA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>喜多能力的描述</Text>
+			<Text>间谍初始即拥有“王牌驾驶员”的提升</Text>
+		</Replace>
+
+		<Replace Tag="LOC_OST_NAME" Language="zh_Hans_CN">
+			<Text>孤独摇滚音乐专辑包</Text>
+		</Replace>
+
+		<Replace Tag="LOC_OST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为游戏新增了14首音乐巨作，详情见游戏</Text>
 		</Replace>
 		
 		

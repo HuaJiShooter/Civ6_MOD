@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KITA_Spy -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 3/6/2023 11:07:46 AM -->
+<GameInfo>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_KITA</TraitType>
+			<ModifierId>UNIQUE_LEADER_SPIES_KITA</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_SPIES_KITA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>True</Permanent>
+			<SubjectRequirementSetId>UNIT_IS_SPY</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_SPIES_KITA</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_SPY_ACE_DRIVER</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

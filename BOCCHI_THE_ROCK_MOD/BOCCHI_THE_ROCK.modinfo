@@ -3,7 +3,7 @@
   <Properties>
     <Name>孤独摇滚文明包BOCCHI_THE_ROCK</Name>
     <Description>This is a brief description of the mod.</Description>
-    <Created>1678019984</Created>
+    <Created>1678104179</Created>
     <Teaser>This is a brief description of the mod.</Teaser>
     <Authors>Hua_Ji_Shooter(滑稽射手)</Authors>
     <SpecialThanks>Hemmelfort,Yuni</SpecialThanks>
@@ -50,6 +50,8 @@
       <File>Modifier/PALACE_MUSICSLOT.xml</File>
       <File>Modifier/ADD_MUSIC_TOURISM.xml</File>
       <File>BOCCHI_THE_ROCK_Colors_DB.xml</File>
+      <File>Modifier/KITA_Spy.xml</File>
+      <File>Modifier/NIJIKA_MODIFIER.xml</File>
     </UpdateDatabase>
     <UpdateText id="text">
       <File>BOCCHI_THE_ROCK_Text.xml</File>
@@ -127,6 +129,8 @@
     <File>Lua/GreatWorkPlayBackground_UI.xml</File>
     <File>Modifier/ADD_MUSIC_TOURISM.xml</File>
     <File>Modifier/CIVICBOOSTS_BOCCHI.xml</File>
+    <File>Modifier/KITA_Spy.xml</File>
+    <File>Modifier/NIJIKA_MODIFIER.xml</File>
     <File>Modifier/PALACE_MUSICSLOT.xml</File>
     <File>Modifier/STARRY_AUTO_THEME.xml</File>
     <File>Modifier/STARRY_CHANGE_MUSIC_TOURISM.xml</File>

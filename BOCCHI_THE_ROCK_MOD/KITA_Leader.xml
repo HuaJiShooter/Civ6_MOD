@@ -6,7 +6,16 @@
 
 	<Types>
 		<Row Type="LEADER_KITA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_KITA" Kind="KIND_TRAIT"/>
 	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_KITA" Name="LOC_TRAIT_LEADER_KITA_NAME" Description="LOC_TRAIT_LEADER_KITA_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_KITA" TraitType="TRAIT_LEADER_KITA"/>
+	</LeaderTraits>
 
 	<Leaders>
 		<Row LeaderType="LEADER_KITA"

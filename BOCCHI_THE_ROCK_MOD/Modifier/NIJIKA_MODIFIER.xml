@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NIJIKA_MODIFIER -->
+<!-- Author: 14830 -->
+<!-- DateCreated: 3/6/2023 7:30:05 PM -->
+<GameInfo>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_NIJIKA</TraitType>
+			<ModifierId>UNIQUE_LEADER_NIJIKA_ENTERTAMENT</ModifierId>
+		</Row>
+		
+		<Row TraitType="TRAIT_LEADER_NIJIKA" ModifierId="MINOR_CIV_BUENOS_AIRES_BONUS_RESOURCE_AMENITY_BONUS"/>
+		
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_NIJIKA_ENTERTAMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_NIJIKA_ENTERTAMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_NIJIKA_ENTERTAMENT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
