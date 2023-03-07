@@ -43,6 +43,14 @@ function PlayBocchiGreatPeople(player, unitId, locationX, locationY, locationZ, 
 	UI.PlaySound("Play_" .. sUnitName)
 end
 
+function PlayUnitJimihen(player, unitId, locationX, locationY, locationZ, isSelected, isEditable)
+	local pUnit = UnitManager.GetUnit(player,unitId)
+	local sUnitName = tostring(pUnit:GetName())
+	if sUnitName = 'UNIT_JIMIHEN' then
+		UI.PlaySound("Play_Unit_Jimihen")
+	end
+end
+
 
 LuaEvents.DiplomacyRibbon_OpenDiplomacyActionView.Add(OpenDiplomacyPauseBGM)
 LuaEvents.DiploScene_SceneClosed.Add(CloseDiplomacyResumeBGM)
@@ -53,4 +61,5 @@ Events.TeamVictory.Add(ExitGameStopBGM)
 -- 重新加载时音乐不会停
 Events.FinishedGameplayContentConfigure.Add(ExitGameStopBGM)
 Events.GreatWorkCreated.Add(BocchiGreatWorkPlay)
-Events.UnitSelectionChanged.Add(PlayBocchiGreatPeople);
+Events.UnitSelectionChanged.Add(PlayBocchiGreatPeople)
+Events.UnitSelectionChanged.Add(PlayUnitJimihen)
