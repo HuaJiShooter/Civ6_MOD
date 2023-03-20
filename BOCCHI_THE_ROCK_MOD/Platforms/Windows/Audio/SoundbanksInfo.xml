@@ -166,6 +166,7 @@
 				<Event Id="1780807087" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_RYO_1_NAME"/>
 				<Event Id="2828171142" Name="Play_LOC_GREAT_PERSON_INDIVIDUAL_RYO_2_NAME"/>
 				<Event Id="1469988668" Name="Play_Music_BOCCHI_THE_ROCK"/>
+				<Event Id="1152593715" Name="Play_Unit_Jimihen"/>
 				<Event Id="3006772913" Name="Resume_BOCCHI_GW_BACKGROUND"/>
 				<Event Id="1150270207" Name="Resume_Music_BOCCHI_THE_ROCK"/>
 				<Event Id="761636084" Name="Start_Music_BOCCHI_THE_ROCK"/>
@@ -271,6 +272,10 @@
 					<ShortName>RYO_2.wav</ShortName>
 					<Path>SFX\RYO_2_988004FB.wem</Path>
 				</File>
+				<File Id="574396045" Language="SFX">
+					<ShortName>JIMIHEN.wav</ShortName>
+					<Path>SFX\JIMIHEN_988004FB.wem</Path>
+				</File>
 				<File Id="589139801" Language="SFX">
 					<ShortName>1_12 星座になれたら_1_HP-UVR_(Instrumental).wav</ShortName>
 					<Path>SFX\1_12 星座になれたら_1_HP-UVR_(Instrumental)_901D2429.wem</Path>
@@ -354,6 +359,114 @@
 				<File Id="1061552759" Language="SFX">
 					<ShortName>GW08.wav</ShortName>
 					<Path>SFX\GW08_988004FB.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4187048168" Language="SFX">
+			<ShortName>BOCCHI_SPEECH</ShortName>
+			<Path>BOCCHI_SPEECH.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1928002522" Name="BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_A"/>
+				<Event Id="1288574186" Name="BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="970652293" Name="BOCCHI_THE_ROCK_BOCCHI_FIRST_MEET_A"/>
+				<Event Id="4094299985" Name="BOCCHI_THE_ROCK_BOCCHI_KUDOS_A"/>
+				<Event Id="4132556841" Name="BOCCHI_THE_ROCK_BOCCHI_NEUTRAL_TO_HAPPY"/>
+				<Event Id="3325858307" Name="BOCCHI_THE_ROCK_BOCCHI_WARNING_A"/>
+				<Event Id="3770961549" Name="BOCCHI_THE_ROCK_KITA_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="605539372" Name="BOCCHI_THE_ROCK_KITA_FIRST_MEET_A"/>
+				<Event Id="374651290" Name="BOCCHI_THE_ROCK_KITA_KUDOS_A"/>
+				<Event Id="1553738004" Name="BOCCHI_THE_ROCK_KITA_WARNING_A"/>
+				<Event Id="2252741940" Name="BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_A"/>
+				<Event Id="4005651384" Name="BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="2249133839" Name="BOCCHI_THE_ROCK_NIJIKA_FIRST_MEET_A"/>
+				<Event Id="1881772355" Name="BOCCHI_THE_ROCK_NIJIKA_KUDOS_A"/>
+				<Event Id="3239569890" Name="BOCCHI_THE_ROCK_RYO_DECLARE_WAR_A"/>
+				<Event Id="2014301730" Name="BOCCHI_THE_ROCK_RYO_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="3232725229" Name="BOCCHI_THE_ROCK_RYO_FIRST_MEET_A"/>
+				<Event Id="3987320281" Name="BOCCHI_THE_ROCK_RYO_KUDOS_A"/>
+				<Event Id="3987320282" Name="BOCCHI_THE_ROCK_RYO_KUDOS_B"/>
+				<Event Id="3577381595" Name="BOCCHI_THE_ROCK_RYO_WARNING_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7247460" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_KITA_WARNING_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_KITA_WARNING_A_988004FB.wem</Path>
+				</File>
+				<File Id="9054792" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_RYO_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_RYO_DECLARE_WAR_A_988004FB.wem</Path>
+				</File>
+				<File Id="36040818" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_KITA_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_KITA_FIRST_MEET_A_988004FB.wem</Path>
+				</File>
+				<File Id="45445687" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_FROM_AI_A_988004FB.wem</Path>
+				</File>
+				<File Id="213369437" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_BOCCHI_NEUTRAL_TO_HAPPY.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_NEUTRAL_TO_HAPPY_988004FB.wem</Path>
+				</File>
+				<File Id="240872359" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_RYO_WARNING_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_RYO_WARNING_A_988004FB.wem</Path>
+				</File>
+				<File Id="402095838" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_RYO_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_RYO_FIRST_MEET_A_988004FB.wem</Path>
+				</File>
+				<File Id="449489085" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_RYO_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_RYO_DECLARE_WAR_FROM_AI_A_988004FB.wem</Path>
+				</File>
+				<File Id="484128042" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_NIJIKA_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_NIJIKA_FIRST_MEET_A_988004FB.wem</Path>
+				</File>
+				<File Id="609923226" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_BOCCHI_WARNING_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_WARNING_A_988004FB.wem</Path>
+				</File>
+				<File Id="626287211" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_A_988004FB.wem</Path>
+				</File>
+				<File Id="673583819" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_BOCCHI_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_FIRST_MEET_A_988004FB.wem</Path>
+				</File>
+				<File Id="796135862" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_KITA_KUDOS_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_KITA_KUDOS_A_988004FB.wem</Path>
+				</File>
+				<File Id="812653661" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_BOCCHI_KUDOS_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_KUDOS_A_988004FB.wem</Path>
+				</File>
+				<File Id="838144275" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_RYO_KUDOS_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_RYO_KUDOS_A_988004FB.wem</Path>
+				</File>
+				<File Id="848638654" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_NIJIKA_KUDOS_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_NIJIKA_KUDOS_A_988004FB.wem</Path>
+				</File>
+				<File Id="860854201" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_A_988004FB.wem</Path>
+				</File>
+				<File Id="893542195" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_RYO_KUDOS_B.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_RYO_KUDOS_B_988004FB.wem</Path>
+				</File>
+				<File Id="921964742" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_FROM_AI_A_988004FB.wem</Path>
+				</File>
+				<File Id="1034881523" Language="SFX">
+					<ShortName>BOCCHI_THE_ROCK_KITA_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\BOCCHI_THE_ROCK_KITA_DECLARE_WAR_FROM_AI_A_988004FB.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

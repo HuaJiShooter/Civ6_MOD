@@ -25,7 +25,7 @@
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_RYO"
 			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_QUOTE"
-			 QuoteAudio="BOCCHI_THE_ROCK_RYO_MISC_PEP_TALK_A"/>
+			 QuoteAudio="BOCCHI_THE_ROCK_RYO_WARNING_A"/>
 	</LeaderQuotes>
 
 	<LoadingInfo>

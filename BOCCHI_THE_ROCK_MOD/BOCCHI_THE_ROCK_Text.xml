@@ -328,6 +328,66 @@
 			<Text>喜欢科技和文化落后的文明</Text>
 		</Replace>
 
+	<!--百科界面的quote-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_QUOTE" Language="zh_Hans_CN">
+			<Text>要是放弃了个性，就跟死去没两样</Text>
+		</Replace>
+		
+		
+		
+		
+		
+	<!--百科界面-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BOCCHI_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的吉他手、作词担当。[NEWLINE]
+				严重的沟通障碍症患者，不敢和人主动搭话。内心话语远远多于实际说出来的。经常做出一些常人难以理解的行动。[NEWLINE]
+				在网络上以“Guitar Hero”的名义活跃着，拥有大量粉丝。但在现实中因为社恐和没有乐队经验，在别人面前弹奏所展示出来的吉他水平比新手还差。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RYO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的贝斯手、作曲担当。[NEWLINE]
+				被别人叫做怪人会很兴奋的怪人。[NEWLINE]
+				表情变化少，和波奇一样没什么朋友。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIJIKA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的鼓手。[NEWLINE]
+				在公园中发现了背着吉他包灰心丧气的波奇，并强拉她加入了“结束乐队”。[NEWLINE]
+				乐队的润滑剂，善于交流。穿着也比较时尚。[NEWLINE]
+				将自己姐姐的Livehouse作为乐队活动地点。平常也会在Livehouse打工。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KITA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>
+				乐队的吉他手和歌手，和波奇是校友。[NEWLINE]
+				社交圈广，有很多朋友的现充。[NEWLINE]
+				其实不会弹吉他，因为憧憬凉前辈而加入了虹夏的乐队，一直瞒着乐队的其他成员，直到第一次演出前退出乐队逃跑了。[NEWLINE]
+				在波奇的帮助下和乐队成员和解，重新加入乐队。
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STARRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				虹夏的姐姐在下北泽开了一家Livehouse叫做STARRY。[NEWLINE]
+				“STARRY呀，其实是姐姐她为了我而创造的地方哦。”by：虹夏
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BOCCHI_THE_ROCK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				作为网络吉他手“Guitar Hero”而广受好评的后藤一里，在现实中却是个什么都不会的沟通障碍者。[NEWLINE]
+
+				一里有着组建乐队的梦想，但因为不敢向人主动搭话而一直没有成功，直到一天在公园中被伊地知虹夏发现并邀请进入缺少吉他手的“结束乐队”。可是，完全没有和他人合作经历的一里，在人前完全发挥不出原本的实力。[NEWLINE]
+
+				为了努力克服沟通障碍，一里与“结束乐队”的成员们一同开始努力……
+			</Text>
+		</Row>
 
 
 	</LocalizedText>

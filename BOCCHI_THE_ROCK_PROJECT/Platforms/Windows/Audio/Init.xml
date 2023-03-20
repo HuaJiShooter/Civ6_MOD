@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\14830\3D Objects\CIV_MOD\BOCCHI_BACKROUND_MUSIC\BOCCHI_BACKROUND\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

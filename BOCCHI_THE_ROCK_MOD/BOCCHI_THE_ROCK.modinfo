@@ -3,7 +3,7 @@
   <Properties>
     <Name>孤独摇滚文明包BOCCHI_THE_ROCK</Name>
     <Description>This is a brief description of the mod.</Description>
-    <Created>1678104179</Created>
+    <Created>1678844882</Created>
     <Teaser>This is a brief description of the mod.</Teaser>
     <Authors>Hua_Ji_Shooter(滑稽射手)</Authors>
     <SpecialThanks>Hemmelfort,Yuni</SpecialThanks>
@@ -25,7 +25,7 @@
       <File>BOCCHI_THE_ROCK_Config_Icon.xml</File>
     </UpdateIcons>
     <UpdateArt id="art">
-      <File>BOCCHI_THE_ROCK.dep</File>
+      <File>孤独摇滚文明包BOCCHI_THE_ROCK.dep</File>
     </UpdateArt>
     <UpdateColors id="colors">
       <File>BOCCHI_THE_ROCK_Colors.xml</File>
@@ -62,7 +62,7 @@
       <File>GreatworkGreatpeople/GreatWork_Icons.xml</File>
     </UpdateIcons>
     <UpdateArt id="art">
-      <File>BOCCHI_THE_ROCK.dep</File>
+      <File>孤独摇滚文明包BOCCHI_THE_ROCK.dep</File>
       <File>ArtDefs/Buildings.artdef</File>
       <File>ArtDefs/Civilizations.artdef</File>
       <File>ArtDefs/FallbackLeaders.artdef</File>
@@ -88,19 +88,17 @@
       <File>Lua/GreatPersonPointFromTourist.lua</File>
     </AddGameplayScripts>
     <UpdateAudio id="SB_BOCCHI">
-      <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
       <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
-      <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
     </UpdateAudio>
   </InGameActions>
   <Files>
     <File>ArtDefs/Buildings.artdef</File>
     <File>ArtDefs/Civilizations.artdef</File>
     <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
     <File>ArtDefs/Units.artdef</File>
     <File>BOCCHI_Leader.xml</File>
     <File>BOCCHI_THE_ROCK.Art.xml</File>
-    <File>BOCCHI_THE_ROCK.dep</File>
     <File>BOCCHI_THE_ROCK_Buildings.xml</File>
     <File>BOCCHI_THE_ROCK_Civilization.xml</File>
     <File>BOCCHI_THE_ROCK_Colors.xml</File>
@@ -139,6 +137,7 @@
     <File>Platforms/MacOS/BLPs/BocchiGreatWork.blp</File>
     <File>Platforms/MacOS/BLPs/BocchiTheRockDDS.blp</File>
     <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderTestModel.blp</File>
     <File>Platforms/Windows/Audio/1003375032.wem</File>
     <File>Platforms/Windows/Audio/1019316767.wem</File>
     <File>Platforms/Windows/Audio/1051305189.wem</File>
@@ -152,7 +151,6 @@
     <File>Platforms/Windows/Audio/52633866.wem</File>
     <File>Platforms/Windows/Audio/529230925.wem</File>
     <File>Platforms/Windows/Audio/535202970.wem</File>
-    <File>Platforms/Windows/Audio/568905256.wem</File>
     <File>Platforms/Windows/Audio/580823244.wem</File>
     <File>Platforms/Windows/Audio/691356043.wem</File>
     <File>Platforms/Windows/Audio/705137495.wem</File>
@@ -166,17 +164,24 @@
     <File>Platforms/Windows/Audio/838442898.wem</File>
     <File>Platforms/Windows/Audio/845907876.wem</File>
     <File>Platforms/Windows/Audio/884554581.wem</File>
+    <File>Platforms/Windows/Audio/BOCCHI_SPEECH.bnk</File>
+    <File>Platforms/Windows/Audio/BOCCHI_SPEECH.txt</File>
+    <File>Platforms/Windows/Audio/BOCCHI_SPEECH.xml</File>
     <File>Platforms/Windows/Audio/PluginInfo.xml</File>
     <File>Platforms/Windows/Audio/SB_BOCCHI.bnk</File>
     <File>Platforms/Windows/Audio/SB_BOCCHI.ini</File>
     <File>Platforms/Windows/Audio/SB_BOCCHI.txt</File>
+    <File>Platforms/Windows/Audio/SB_BOCCHI.xml</File>
     <File>Platforms/Windows/Audio/SoundbanksInfo.xml</File>
     <File>Platforms/Windows/BLPs/BocchiGreatWork.blp</File>
     <File>Platforms/Windows/BLPs/BocchiTheRockDDS.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderTestModel.blp</File>
     <File>RYO_Leader.xml</File>
     <File>XLPs/BocchiGreatWork.xlp</File>
     <File>XLPs/BocchiTheRockDDS.xlp</File>
     <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/LeaderTestModel.xlp</File>
+    <File>孤独摇滚文明包BOCCHI_THE_ROCK.dep</File>
   </Files>
 </Mod>

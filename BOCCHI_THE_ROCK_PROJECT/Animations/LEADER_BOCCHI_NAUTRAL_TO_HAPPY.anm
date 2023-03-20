@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AnimationInstance>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_fDuration>8.566668</m_fDuration>
+	<m_SourceFilePath text="C:\Users\14830\3D Objects\CIV_MOD\MODEL_PROJECT\BOCCHI_NEUTRAL_TO_HAPPY.fbx"/>
+	<m_SourceObjectName text="Bocchi_Root"/>
+	<m_ImportedTime>0</m_ImportedTime>
+	<m_ExportedTime>0</m_ExportedTime>
+	<m_ClassName text="Leader"/>
+	<m_DataFiles>
+		<Element>
+			<m_ID text="GR2"/>
+			<m_RelativePath text="LEADER_BOCCHI_NAUTRAL_TO_HAPPY.fgx"/>
+		</Element>
+	</m_DataFiles>
+	<m_Name text="LEADER_BOCCHI_NAUTRAL_TO_HAPPY"/>
+	<m_Description text=""/>
+	<m_Tags/>
+</AssetObjects..AnimationInstance>
+

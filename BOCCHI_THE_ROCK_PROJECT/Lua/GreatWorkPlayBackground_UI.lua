@@ -46,7 +46,7 @@ end
 function PlayUnitJimihen(player, unitId, locationX, locationY, locationZ, isSelected, isEditable)
 	local pUnit = UnitManager.GetUnit(player,unitId)
 	local sUnitName = tostring(pUnit:GetName())
-	if sUnitName = 'UNIT_JIMIHEN' then
+	if sUnitName == 'LOC_UNIT_JIMIHEN_NAME' then
 		UI.PlaySound("Play_Unit_Jimihen")
 	end
 end
@@ -57,9 +57,10 @@ LuaEvents.DiploScene_SceneClosed.Add(CloseDiplomacyResumeBGM)
 Events.PlayerDefeat.Add(DefeatStopBGM)
 Events.TeamVictory.Add(ExitGameStopBGM)
 
--- 在音乐播放的时候和其他文明相遇会重新开始播放背景音乐
--- 重新加载时音乐不会停
+-- TODO:在音乐播放的时候和其他文明相遇会重新开始播放背景音乐
+
 Events.FinishedGameplayContentConfigure.Add(ExitGameStopBGM)
 Events.GreatWorkCreated.Add(BocchiGreatWorkPlay)
 Events.UnitSelectionChanged.Add(PlayBocchiGreatPeople)
 Events.UnitSelectionChanged.Add(PlayUnitJimihen)
+Events.ExitToMainMenu.Add(ExitGameStopBGM)

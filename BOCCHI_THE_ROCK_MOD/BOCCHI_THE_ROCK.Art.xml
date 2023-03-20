@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..GameArtSpecification>
 	<id>
-		<name text="BOCCHI_THE_ROCK"/>
+		<name text="孤独摇滚文明包BOCCHI_THE_ROCK"/>
 		<id text="a0be6e11-ecab-47e5-aef9-b68d04bf2c2a"/>
 	</id>
 	<artConsumers>
@@ -17,6 +17,7 @@
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
+				<Element text="Leaders.artdef"/>
 				<Element text="Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -173,6 +174,7 @@
 		<Element>
 			<consumerName text="LeaderLighting"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderLighting"/>
@@ -183,6 +185,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -485,6 +488,7 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
+				<Element text="LeaderTestModel"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

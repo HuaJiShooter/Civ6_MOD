@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="Leader"/>
+	<m_PackageName text="LeaderTestModel"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEAD_BTR_BOCCHI"/>
+			<m_ObjectName text="LEAD_BTR_BOCCHI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEAD_BTR_RYO"/>
+			<m_ObjectName text="LEAD_BTR_RYO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEAD_BTR_KITA"/>
+			<m_ObjectName text="LEAD_BTR_KITA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEAD_BTR_NIJIKA"/>
+			<m_ObjectName text="LEAD_BTR_NIJIKA"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -68,7 +68,7 @@
 	<Building_GreatWorks>
 		<Row BuildingType="BUILDING_MUSEUM_MUSIC"
 			 GreatWorkSlotType="GREATWORKSLOT_MUSIC"
-			 NumSlots="3"/>
+			 NumSlots="2"/>
 
 		<Row BuildingType="BUILDING_STARRY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
 	</Building_GreatWorks>
