@@ -390,6 +390,475 @@
 		</Row>
 
 
+		<!-- 波奇领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>今天和大家出门，我玩得很开心，明天起我又有努力的动力了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>啊，现在还不行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>啊！（太紧张了忘记要说什么了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>啊，抱歉。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>糟糕糟糕糟糕糟糕糟糕~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>啊，牡蛎~，被人盯着就紧张的不得了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>那，那个，果然还是不行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>那个，可以的话请接受一下使节。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>唔，好像忘记。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>就算开玩笑也不能说这种话哦，要当个懂得将心比心的人（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>啊，后藤一里，秀华高中一年生。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>啊，附近有一座城市，我想你是不是能来看一下。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>啊，可以交换首都情报吗</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>竟然一直夸我，人好好喔。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>牡蛎~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>啊，有兴趣结个盟吗</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>啊，你的军队。。。。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>孤独摇滚，完。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>啊，谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BOCCHI_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>啊，打扰了。</Text>
+		</Row>
+
+
+		<!-- 喜多领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>非常感谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>抱歉，我没办法加入结束乐队</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>交个朋友吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>谢谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>可能时机不对吧，我下次再来！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>竟然这样！？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>“来了，走了”的，很蠢吧啊哈哈哈</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>谢谢你的礼物！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>达咩！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>这是伴手礼哦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>既然被谴责了的话也没办法了呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>看我每天诅咒一个人~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>后藤同学有想去的地方吗，每天一起创造回忆吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>附近有一座城市，强烈欢迎你来参观哦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>谢谢合作</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我们来交换首都情报吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>诶嘿，感动~，后藤同学吉他弹的好好哦</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>（敌视你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>让我们结盟吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>请把你的军队从我的边境上移开</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>吉他弹不好真的很抱歉，长得太可爱真的很抱歉。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>谢谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KITA_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>决定权在你手里。</Text>
+		</Row>
+		
+
+		<!-- 凉领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>我就勉为其难的接受吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>抱歉，我的爱犬贝斯要动手术</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>我的朋友很少，算上你一个要感到荣幸</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>哼，不愧是我</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>我早就料到你会拒绝了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>一库哟~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>接下来我就身无分文，得吃杂草过活了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>（含泪收下）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>但是我拒绝！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>给你，伴手礼。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>（假哭）呜呜呜</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>噗，典。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>喜欢的人也许不多，但应该能深深吸引某些人吧</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>附近有一座城市，来共享下视野。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>快感谢我。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>来，共享首都视野。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>虹夏好温柔，喜欢~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>抱歉，我现在没钱，剩下你解决吧（敌视你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>为了利益结盟吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>把你的军队移开，不然我就要用贝斯砸了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>（抽泣）只能这样了</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>下次记得再借我钱。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RYO_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>这下又要没钱力。</Text>
+		</Row>
+
+
+
+		<!-- 虹夏领袖对话 -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>好，同意！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>现在还为你保密哦</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>拜托了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>那我们现在就去Starry吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>这样啊，那算了吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>想，想要见姐姐。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>到现在还要报玩偶睡觉的人！嚣张什么嘛！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>谢谢你的礼物！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>不行哦~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>打扰了~~这是伴手礼。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>嘛，也是没办法的事情呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>哼，不理你了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>我是下北泽高中二年级的伊地知虹夏。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>附近有一座城市，想要合作的话正好共享一下位置吧</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>谢谢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>来共享首都的位置吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>但是，每次为我突破绝境的，都是波奇酱你啊。今天的你，在我眼中就是真正的英雄！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>（敌视你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>希望你能留下来一起炒热结束乐队呐！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>你的军队怎么放在我家门口，好可怕。。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>好，好想见姐姐</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>交易成立！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NIJIKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>尊重你的决定咯~</Text>
+		</Row>
+
+
 	</LocalizedText>
 	
 </GameData>

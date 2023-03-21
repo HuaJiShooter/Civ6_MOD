@@ -9,9 +9,9 @@ Starting 'LeaderTestModel'
 ****** Log from Texture: 'blackGlassGloss' ********
 --------------
 Texture 'blackGlassGloss' (64x64) is at least 99 percent solid color, but is 64x64 or larger resolution!
-Load finished for: 'LeaderTestModel' in 2.846 seconds
+Load finished for: 'LeaderTestModel' in 2.818 seconds
 Cook finished for: 'LeaderTestModel' in 0.000 seconds
-Disk write finished for: 'LeaderTestModel' in 0.072 seconds
-Cleanup finished for: 'LeaderTestModel' in 0.046 seconds
+Disk write finished for: 'LeaderTestModel' in 0.064 seconds
+Cleanup finished for: 'LeaderTestModel' in 0.048 seconds
 XLP cook completed with success.
-Cook completed in 2.974 seconds
+Cook completed in 2.938 seconds
