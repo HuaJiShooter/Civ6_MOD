@@ -20,6 +20,7 @@ function GetTurnsTourismTurnEnd()
 	end
 end
 
+--游戏加载完成后获取当前回合的科文金来确定目前已插入的修改器数量
 function GetTurnsTourismTurnBegin()
 	local AlivePlayerList = PlayerManager.GetAlive()
 

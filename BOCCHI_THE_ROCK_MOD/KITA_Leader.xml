@@ -28,7 +28,7 @@
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_KITA"
 			 Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_KITA_QUOTE"
-			 QuoteAudio="BOCCHI_THE_ROCK_KITA_MISC_PEP_TALK_A"/>
+			 QuoteAudio="KITA_QUOTE"/>
 	</LeaderQuotes>
 
 	<HistoricalAgendas>

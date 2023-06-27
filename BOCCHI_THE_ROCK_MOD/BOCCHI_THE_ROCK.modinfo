@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="a0be6e11-ecab-47e5-aef9-b68d04bf2c2a" version="1">
   <Properties>
-    <Name>孤独摇滚文明包BOCCHI_THE_ROCK</Name>
-    <Description>This is a brief description of the mod.</Description>
-    <Created>1679375009</Created>
-    <Teaser>This is a brief description of the mod.</Teaser>
+    <Name>孤独摇滚文明 BOCCHI_THE_ROCK</Name>
+    <Description>本模组添加了一个全新文明结束乐队和四位领袖，添加了14首音乐巨作</Description>
+    <Created>1680018285</Created>
+    <Teaser>孤独摇滚文明包</Teaser>
     <Authors>Hua_Ji_Shooter(滑稽射手)</Authors>
     <SpecialThanks>Hemmelfort,Yuni</SpecialThanks>
+    <Homepage>http://https://space.bilibili.com/170251482</Homepage>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <Dependencies>
@@ -15,7 +16,6 @@
   <FrontEndActions>
     <UpdateDatabase id="config">
       <File>BOCCHI_THE_ROCK_Config.xml</File>
-      <File>BOCCHI_THE_ROCK_Colors_DB.xml</File>
     </UpdateDatabase>
     <UpdateText id="text">
       <File>BOCCHI_THE_ROCK_Text.xml</File>
@@ -29,6 +29,7 @@
     </UpdateArt>
     <UpdateColors id="colors">
       <File>BOCCHI_THE_ROCK_Colors.xml</File>
+      <File>BOCCHI_THE_ROCK_Colors_DB.xml</File>
     </UpdateColors>
   </FrontEndActions>
   <InGameActions>
@@ -36,8 +37,6 @@
       <File>BOCCHI_THE_ROCK_Civilization.xml</File>
       <File>BOCCHI_THE_ROCK_Unit.xml</File>
       <File>BOCCHI_THE_ROCK_Buildings.xml</File>
-      <File>BOCCHI_THE_ROCK_Text.xml</File>
-      <File>BOCCHI_THE_ROCK_Icons.xml</File>
       <File>BOCCHI_Leader.xml</File>
       <File>KITA_Leader.xml</File>
       <File>NIJIKA_Leader.xml</File>
@@ -63,10 +62,6 @@
     </UpdateIcons>
     <UpdateArt id="art">
       <File>孤独摇滚文明包BOCCHI_THE_ROCK.dep</File>
-      <File>ArtDefs/Buildings.artdef</File>
-      <File>ArtDefs/Civilizations.artdef</File>
-      <File>ArtDefs/FallbackLeaders.artdef</File>
-      <File>ArtDefs/Units.artdef</File>
     </UpdateArt>
     <UpdateColors id="color">
       <File>BOCCHI_THE_ROCK_Colors.xml</File>

@@ -406,7 +406,9 @@
 		</Element>
 		<Element>
 			<ArtDefPath text="Units.artdef"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Units.artdef"/>
+			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
 			<ArtDefPath text="Clutter.artdef"/>

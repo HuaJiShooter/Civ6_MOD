@@ -14,7 +14,7 @@ function GreatPersonPointFromTourist(PlayerID,TouristAmount)
 
 		pPlayer:GetGreatPeoplePoints():ChangePointsTotal(8,ChangeAmount)
 		Players[PlayerID].TouristAmountBefore = TouristAmount
-		Game.AddWorldViewText(0,"Musician Point£«".. tostring(ChangeAmount),iCityX,iCityY)
+		Game.AddWorldViewText(0,"Musician Point + ".. tostring(ChangeAmount),iCityX,iCityY)
 	end
 	
 end

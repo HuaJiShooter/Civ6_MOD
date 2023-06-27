@@ -12,6 +12,7 @@
 			<ShortName>BOCCHI_SPEECH</ShortName>
 			<Path>BOCCHI_SPEECH.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3544235130" Name="BOCCHI_QUOTE"/>
 				<Event Id="1928002522" Name="BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_A"/>
 				<Event Id="1288574186" Name="BOCCHI_THE_ROCK_BOCCHI_DECLARE_WAR_FROM_AI_A"/>
 				<Event Id="970652293" Name="BOCCHI_THE_ROCK_BOCCHI_FIRST_MEET_A"/>
@@ -32,6 +33,8 @@
 				<Event Id="3987320281" Name="BOCCHI_THE_ROCK_RYO_KUDOS_A"/>
 				<Event Id="3987320282" Name="BOCCHI_THE_ROCK_RYO_KUDOS_B"/>
 				<Event Id="3577381595" Name="BOCCHI_THE_ROCK_RYO_WARNING_A"/>
+				<Event Id="2980529605" Name="KITA_QUOTE"/>
+				<Event Id="2467139076" Name="NIJIKA_QUOTE"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="7247460" Language="SFX">
@@ -58,6 +61,10 @@
 					<ShortName>BOCCHI_THE_ROCK_RYO_WARNING_A.wav</ShortName>
 					<Path>SFX\BOCCHI_THE_ROCK_RYO_WARNING_A_988004FB.wem</Path>
 				</File>
+				<File Id="298609194" Language="SFX">
+					<ShortName>KITA_QUOTE.wav</ShortName>
+					<Path>SFX\KITA_QUOTE_988004FB.wem</Path>
+				</File>
 				<File Id="402095838" Language="SFX">
 					<ShortName>BOCCHI_THE_ROCK_RYO_FIRST_MEET_A.wav</ShortName>
 					<Path>SFX\BOCCHI_THE_ROCK_RYO_FIRST_MEET_A_988004FB.wem</Path>
@@ -82,6 +89,10 @@
 					<ShortName>BOCCHI_THE_ROCK_BOCCHI_FIRST_MEET_A.wav</ShortName>
 					<Path>SFX\BOCCHI_THE_ROCK_BOCCHI_FIRST_MEET_A_988004FB.wem</Path>
 				</File>
+				<File Id="794128590" Language="SFX">
+					<ShortName>BOCCHI_QUOTE.wav</ShortName>
+					<Path>SFX\BOCCHI_QUOTE_988004FB.wem</Path>
+				</File>
 				<File Id="796135862" Language="SFX">
 					<ShortName>BOCCHI_THE_ROCK_KITA_KUDOS_A.wav</ShortName>
 					<Path>SFX\BOCCHI_THE_ROCK_KITA_KUDOS_A_988004FB.wem</Path>
@@ -101,6 +112,10 @@
 				<File Id="860854201" Language="SFX">
 					<ShortName>BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_A.wav</ShortName>
 					<Path>SFX\BOCCHI_THE_ROCK_NIJIKA_DECLARE_WAR_A_988004FB.wem</Path>
+				</File>
+				<File Id="869550255" Language="SFX">
+					<ShortName>NIJIKA_QUOTE.wav</ShortName>
+					<Path>SFX\NIJIKA_QUOTE_988004FB.wem</Path>
 				</File>
 				<File Id="893542195" Language="SFX">
 					<ShortName>BOCCHI_THE_ROCK_RYO_KUDOS_B.wav</ShortName>

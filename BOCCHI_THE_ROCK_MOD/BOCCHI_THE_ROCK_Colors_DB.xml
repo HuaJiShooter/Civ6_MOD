@@ -26,7 +26,7 @@
 
 		<Row>
 			<Type>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</Type>
-			<Color>0,0,0,255</Color>
+			<Color>1,1,1,255</Color>
 		</Row>
 	</Colors>
 </Database>

@@ -9,7 +9,7 @@ function ChangeYieldFromTourism(value, TourismThisRound)
 	Players[value].ModifierAmountNow = ChangeAmount
 end
 
-
+--如果没有属性则插入
 function GameStartPlayerSettingBOCCHI(value, TourismThisRound)
 	local pPlayer = Players[value]
 	if pPlayer.ModifierAmountNow == nil then
@@ -18,6 +18,7 @@ function GameStartPlayerSettingBOCCHI(value, TourismThisRound)
 	end
 end
 
+--改变回合收益
 function ChangeYieldBOCCHI (value, Amount, YIELD_TYPE:string)
 	local pPlayer = Players[value]
 	local ModifierAmountNow = pPlayer.ModifierAmountNow

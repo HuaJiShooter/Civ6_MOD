@@ -7,28 +7,28 @@
 		<Row>
 			<Type>LEADER_BOCCHI</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_BLACK</PrimaryColor>
+			<PrimaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_BOCCHI_PRIMARY</SecondaryColor>
 		</Row>
 			
 		<Row>
 			<Type>LEADER_KITA</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_BLACK</PrimaryColor>
+			<PrimaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_KITA_PRIMARY</SecondaryColor>
 		</Row>
 
 		<Row>
 			<Type>LEADER_RYO</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_BLACK</PrimaryColor>
+			<PrimaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_RYO_PRIMARY</SecondaryColor>
 		</Row>
 
 		<Row>
 			<Type>LEADER_NIJIKA</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_BLACK</PrimaryColor>
+			<PrimaryColor>COLOR_PLAYER_BOCCHI_THE_ROCK_SECONDARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_NIJIKA_PRIMARY</SecondaryColor>
 		</Row>
 	</PlayerColors>
